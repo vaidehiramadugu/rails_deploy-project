@@ -1,0 +1,15 @@
+current directory: /Users/admin/Desktop/rails_deploy/vendor/cache/ruby/2.5.0/gems/bootsnap-1.4.5/ext/bootsnap
+/Users/admin/.rbenv/versions/2.5.1/bin/ruby -r ./siteconf20200203-31466-7xfgpe.rb extconf.rb
+creating Makefile
+
+current directory: /Users/admin/Desktop/rails_deploy/vendor/cache/ruby/2.5.0/gems/bootsnap-1.4.5/ext/bootsnap
+make "DESTDIR=" clean
+
+current directory: /Users/admin/Desktop/rails_deploy/vendor/cache/ruby/2.5.0/gems/bootsnap-1.4.5/ext/bootsnap
+make "DESTDIR="
+compiling bootsnap.c
+linking shared-object bootsnap/bootsnap.bundle
+
+current directory: /Users/admin/Desktop/rails_deploy/vendor/cache/ruby/2.5.0/gems/bootsnap-1.4.5/ext/bootsnap
+make "DESTDIR=" install
+/usr/local/bin/ginstall -c -m 0755 bootsnap.bundle ./.gem.20200203-31466-139iomq/bootsnap

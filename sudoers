@@ -1,0 +1,4 @@
+Add username ALL=(ALL)  NOPASSWD:ALL
+Add deploy ALL=(ALL) NOPASSWD:ALL
+Add devops ALL=(ALL) NOPASSWD:ALL
+Add root ALL=(ALL) NOPASSWD:ALL

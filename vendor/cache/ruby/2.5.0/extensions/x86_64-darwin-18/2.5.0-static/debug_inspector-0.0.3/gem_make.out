@@ -1,0 +1,15 @@
+current directory: /Users/admin/Desktop/rails_deploy/vendor/cache/ruby/2.5.0/gems/debug_inspector-0.0.3/ext/debug_inspector
+/Users/admin/.rbenv/versions/2.5.1/bin/ruby -r ./siteconf20200203-31466-brp16p.rb extconf.rb
+creating Makefile
+
+current directory: /Users/admin/Desktop/rails_deploy/vendor/cache/ruby/2.5.0/gems/debug_inspector-0.0.3/ext/debug_inspector
+make "DESTDIR=" clean
+
+current directory: /Users/admin/Desktop/rails_deploy/vendor/cache/ruby/2.5.0/gems/debug_inspector-0.0.3/ext/debug_inspector
+make "DESTDIR="
+compiling debug_inspector.c
+linking shared-object debug_inspector.bundle
+
+current directory: /Users/admin/Desktop/rails_deploy/vendor/cache/ruby/2.5.0/gems/debug_inspector-0.0.3/ext/debug_inspector
+make "DESTDIR=" install
+/usr/local/bin/ginstall -c -m 0755 debug_inspector.bundle ./.gem.20200203-31466-f3qu6a
