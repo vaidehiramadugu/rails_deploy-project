@@ -29,11 +29,6 @@ install_plugin Capistrano::SCM::Git
 # require "capistrano/rvm"
 # require "capistrano/rbenv"
 # require "capistrano/chruby"
-require 'capistrano/bundler'
-require 'capistrano/rvm'
-require 'capisrano/rails/assets'#for asset handling add
-require 'capistrano/rails/migrations'#for running migrations
-require 'capistrano/puma’
 # require "capistrano/bundler"
 # require "capistrano/rails/assets"
 # require "capistrano/rails/migrations"
