@@ -63,3 +63,86 @@
   INFO ---------------------------------------------------------------------------
   INFO [5fbac199] Running /usr/bin/env mkdir -p /tmp as ubuntu@3.19.27.247
  DEBUG [5fbac199] Command: /usr/bin/env mkdir -p /tmp
+  INFO ---------------------------------------------------------------------------
+  INFO START 2020-02-04 11:35:24 +0530 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [f2e35e78] Running /usr/bin/env mkdir -p /tmp as <deploy>@<3.19.255.157>
+ DEBUG [f2e35e78] Command: /usr/bin/env mkdir -p /tmp
+  INFO [3fc6acad] Running /usr/bin/env mkdir -p /tmp as deploy@3.19.255.157
+ DEBUG [3fc6acad] Command: /usr/bin/env mkdir -p /tmp
+  INFO ---------------------------------------------------------------------------
+  INFO START 2020-02-04 11:40:05 +0530 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [afc8d88c] Running /usr/bin/env mkdir -p /tmp as <deploy>@<3.19.255.157>
+ DEBUG [afc8d88c] Command: /usr/bin/env mkdir -p /tmp
+  INFO [385bf5f1] Running /usr/bin/env mkdir -p /tmp as deploy@3.19.255.157
+ DEBUG [385bf5f1] Command: /usr/bin/env mkdir -p /tmp
+ DEBUG [385bf5f1] 	/etc/profile.d/lang.sh: line 19: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory
+  INFO [385bf5f1] Finished in 4.397 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-rails_deploy-production-admin.sh 0.0%
+  INFO Uploading /tmp/git-ssh-rails_deploy-production-admin.sh 100.0%
+  INFO [2fe3c114] Running /usr/bin/env chmod 700 /tmp/git-ssh-rails_deploy-production-admin.sh as deploy@3.19.255.157
+ DEBUG [2fe3c114] Command: /usr/bin/env chmod 700 /tmp/git-ssh-rails_deploy-production-admin.sh
+ DEBUG [2fe3c114] 	/etc/profile.d/lang.sh: line 19: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory
+  INFO [2fe3c114] Finished in 0.940 seconds with exit status 0 (successful).
+  INFO ---------------------------------------------------------------------------
+  INFO START 2020-02-04 11:44:05 +0530 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO ---------------------------------------------------------------------------
+  INFO START 2020-02-04 11:44:10 +0530 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO ---------------------------------------------------------------------------
+  INFO START 2020-02-04 11:44:50 +0530 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [3a52a414] Running /usr/bin/env mkdir -p /tmp as deploy@3.19.255.157
+ DEBUG [3a52a414] Command: /usr/bin/env mkdir -p /tmp
+  INFO ---------------------------------------------------------------------------
+  INFO START 2020-02-04 11:50:42 +0530 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [68897426] Running /usr/bin/env mkdir -p /tmp as deploy@3.19.255.157
+ DEBUG [68897426] Command: /usr/bin/env mkdir -p /tmp
+  INFO ---------------------------------------------------------------------------
+  INFO START 2020-02-04 11:53:33 +0530 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [7e3c9d87] Running /usr/bin/env mkdir -p /tmp as deploy@3.19.255.157
+ DEBUG [7e3c9d87] Command: /usr/bin/env mkdir -p /tmp
+  INFO ---------------------------------------------------------------------------
+  INFO START 2020-02-04 11:55:10 +0530 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [2c0a88af] Running /usr/bin/env mkdir -p /tmp as deploy@3.19.255.157
+ DEBUG [2c0a88af] Command: /usr/bin/env mkdir -p /tmp
+  INFO ---------------------------------------------------------------------------
+  INFO START 2020-02-04 11:57:22 +0530 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [10dcafd8] Running /usr/bin/env mkdir -p /tmp as deploy@3.19.255.157
+ DEBUG [10dcafd8] Command: /usr/bin/env mkdir -p /tmp
+ DEBUG [10dcafd8] 	/etc/profile.d/lang.sh: line 19: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory
+  INFO [10dcafd8] Finished in 3.656 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-rails_deploy-production-admin.sh 0.0%
+  INFO Uploading /tmp/git-ssh-rails_deploy-production-admin.sh 100.0%
+  INFO [112bfc77] Running /usr/bin/env chmod 700 /tmp/git-ssh-rails_deploy-production-admin.sh as deploy@3.19.255.157
+ DEBUG [112bfc77] Command: /usr/bin/env chmod 700 /tmp/git-ssh-rails_deploy-production-admin.sh
+ DEBUG [112bfc77] 	/etc/profile.d/lang.sh: line 19: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory
+  INFO [112bfc77] Finished in 1.253 seconds with exit status 0 (successful).
+  INFO [0ec9cc47] Running /usr/bin/env git ls-remote https://github.com/vaidehiramadugu/rails_deploy-project.git HEAD as deploy@3.19.255.157
+ DEBUG [0ec9cc47] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-rails_deploy-production-admin.sh" ; /usr/bin/env git ls-remote https://github.com/vaidehiramadugu/rails_deploy-project.git HEAD )
+ DEBUG [0ec9cc47] 	/etc/profile.d/lang.sh: line 19: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory
+ DEBUG [0ec9cc47] 	032bd71d30a8b9708f5dd43e287b0a82630963b8	HEAD
+  INFO [0ec9cc47] Finished in 1.050 seconds with exit status 0 (successful).
+  INFO [eeb7d299] Running /usr/bin/env mkdir -p /u01/apps/qwinix/rails_deploy/shared /u01/apps/qwinix/rails_deploy/releases as deploy@3.19.255.157
+ DEBUG [eeb7d299] Command: /usr/bin/env mkdir -p /u01/apps/qwinix/rails_deploy/shared /u01/apps/qwinix/rails_deploy/releases
+ DEBUG [eeb7d299] 	/etc/profile.d/lang.sh: line 19: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory
+  INFO [eeb7d299] Finished in 0.932 seconds with exit status 0 (successful).
+  INFO [12fea3a5] Running /usr/bin/env mkdir -p /u01/apps/qwinix/rails_deploy/shared/bin /u01/apps/qwinix/rails_deploy/shared/log /u01/apps/qwinix/rails_deploy/shared/tmp/pids /u01/apps/qwinix/rails_deploy/shared/tmp/cache /u01/apps/qwinix/rails_deploy/shared/tmp/sockets /u01/apps/qwinix/rails_deploy/shared/vendor/bundle /u01/apps/qwinix/rails_deploy/shared/public/system /u01/apps/qwinix/rails_deploy/shared/public/uploads as deploy@3.19.255.157
+ DEBUG [12fea3a5] Command: /usr/bin/env mkdir -p /u01/apps/qwinix/rails_deploy/shared/bin /u01/apps/qwinix/rails_deploy/shared/log /u01/apps/qwinix/rails_deploy/shared/tmp/pids /u01/apps/qwinix/rails_deploy/shared/tmp/cache /u01/apps/qwinix/rails_deploy/shared/tmp/sockets /u01/apps/qwinix/rails_deploy/shared/vendor/bundle /u01/apps/qwinix/rails_deploy/shared/public/system /u01/apps/qwinix/rails_deploy/shared/public/uploads
+ DEBUG [12fea3a5] 	/etc/profile.d/lang.sh: line 19: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory
+  INFO [12fea3a5] Finished in 0.937 seconds with exit status 0 (successful).
+  INFO [9e78059e] Running /usr/bin/env mkdir -p /u01/apps/qwinix/rails_deploy/shared/config as deploy@3.19.255.157
+ DEBUG [9e78059e] Command: /usr/bin/env mkdir -p /u01/apps/qwinix/rails_deploy/shared/config
+ DEBUG [9e78059e] 	/etc/profile.d/lang.sh: line 19: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory
+  INFO [9e78059e] Finished in 0.881 seconds with exit status 0 (successful).
+ DEBUG [035b1759] Running [ -f /u01/apps/qwinix/rails_deploy/shared/config/database.yml ] as deploy@3.19.255.157
+ DEBUG [035b1759] Command: [ -f /u01/apps/qwinix/rails_deploy/shared/config/database.yml ]
+ DEBUG [035b1759] 	/etc/profile.d/lang.sh: line 19: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory
+ DEBUG [035b1759] Finished in 0.892 seconds with exit status 1 (failed).
+ ERROR linked file /u01/apps/qwinix/rails_deploy/shared/config/database.yml does not exist on 3.19.255.157
