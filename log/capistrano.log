@@ -1,16 +1,65 @@
-# Logfile created on 2020-02-03 18:23:04 +0530 by logger.rb/56438
   INFO ---------------------------------------------------------------------------
-  INFO START 2020-02-03 18:23:04 +0530 cap production deploy
+  INFO START 2020-02-03 23:31:29 +0530 cap production deploy
   INFO ---------------------------------------------------------------------------
+  INFO [9069a787] Running /usr/bin/env mkdir -p /tmp as deploy@3.19.27.247
+ DEBUG [9069a787] Command: /usr/bin/env mkdir -p /tmp
   INFO ---------------------------------------------------------------------------
-  INFO START 2020-02-03 21:39:30 +0530 cap production deploy
+  INFO START 2020-02-03 23:31:46 +0530 cap production deploy
   INFO ---------------------------------------------------------------------------
+  INFO [ce91049b] Running /usr/bin/env mkdir -p /tmp as deploy@3.19.27.247
+ DEBUG [ce91049b] Command: /usr/bin/env mkdir -p /tmp
   INFO ---------------------------------------------------------------------------
-  INFO START 2020-02-03 21:54:23 +0530 cap production deploy
+  INFO START 2020-02-03 23:32:46 +0530 cap production deploy
   INFO ---------------------------------------------------------------------------
+  INFO [89d6861a] Running /usr/bin/env mkdir -p /tmp as deploy@3.19.27.247
+ DEBUG [89d6861a] Command: /usr/bin/env mkdir -p /tmp
   INFO ---------------------------------------------------------------------------
-  INFO START 2020-02-03 21:54:29 +0530 cap production deploy
+  INFO START 2020-02-03 23:34:53 +0530 cap production deploy
   INFO ---------------------------------------------------------------------------
+  INFO [80e1e54c] Running /usr/bin/env mkdir -p /tmp as deploy@3.19.27.247
+ DEBUG [80e1e54c] Command: /usr/bin/env mkdir -p /tmp
   INFO ---------------------------------------------------------------------------
-  INFO START 2020-02-03 21:54:37 +0530 cap production deploy
+  INFO START 2020-02-03 23:35:24 +0530 cap production deploy
   INFO ---------------------------------------------------------------------------
+  INFO [b91a3bf8] Running /usr/bin/env mkdir -p /tmp as deploy@3.19.27.247
+ DEBUG [b91a3bf8] Command: /usr/bin/env mkdir -p /tmp
+  INFO ---------------------------------------------------------------------------
+  INFO START 2020-02-03 23:36:05 +0530 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [24823ad3] Running /usr/bin/env mkdir -p /tmp as deploy@3.19.27.247
+ DEBUG [24823ad3] Command: /usr/bin/env mkdir -p /tmp
+  INFO ---------------------------------------------------------------------------
+  INFO START 2020-02-03 23:38:27 +0530 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [7829d302] Running /usr/bin/env mkdir -p /tmp as deploy@3.19.27.247
+ DEBUG [7829d302] Command: /usr/bin/env mkdir -p /tmp
+  INFO ---------------------------------------------------------------------------
+  INFO START 2020-02-03 23:42:05 +0530 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [994a98d6] Running /usr/bin/env mkdir -p /tmp as ubuntu@3.19.27.247
+ DEBUG [994a98d6] Command: /usr/bin/env mkdir -p /tmp
+  INFO ---------------------------------------------------------------------------
+  INFO START 2020-02-03 23:42:56 +0530 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [ab988dd7] Running /usr/bin/env mkdir -p /tmp as ubuntu@3.19.27.247
+ DEBUG [ab988dd7] Command: /usr/bin/env mkdir -p /tmp
+  INFO ---------------------------------------------------------------------------
+  INFO START 2020-02-03 23:43:43 +0530 cap qa deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [fc04800a] Running /usr/bin/env mkdir -p /tmp as ubuntu@3.19.27.247
+ DEBUG [fc04800a] Command: /usr/bin/env mkdir -p /tmp
+  INFO ---------------------------------------------------------------------------
+  INFO START 2020-02-03 23:45:54 +0530 cap production deploy:check
+  INFO ---------------------------------------------------------------------------
+  INFO [5f3677ce] Running /usr/bin/env mkdir -p /tmp as ubuntu@3.19.27.247
+ DEBUG [5f3677ce] Command: /usr/bin/env mkdir -p /tmp
+  INFO ---------------------------------------------------------------------------
+  INFO START 2020-02-03 23:46:49 +0530 cap production deploy:check
+  INFO ---------------------------------------------------------------------------
+  INFO [a24f47c5] Running /usr/bin/env mkdir -p /tmp as ubuntu@3.19.27.247
+ DEBUG [a24f47c5] Command: /usr/bin/env mkdir -p /tmp
+  INFO ---------------------------------------------------------------------------
+  INFO START 2020-02-03 23:49:39 +0530 cap production deploy:check
+  INFO ---------------------------------------------------------------------------
+  INFO [5fbac199] Running /usr/bin/env mkdir -p /tmp as ubuntu@3.19.27.247
+ DEBUG [5fbac199] Command: /usr/bin/env mkdir -p /tmp

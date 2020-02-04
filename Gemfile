@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-git_source(:github) { |repo| "https://github.com/#{repo}.git" }
+#git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
@@ -12,6 +12,7 @@ gem 'puma', '~> 3.11'
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
+gem 'capistrano', '~> 3.1'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'mini_racer', platforms: :ruby
 
@@ -43,11 +44,17 @@ end
 group :development do
   # Access an interactive console on exception pages or by calling 'console' anywhere in the code.
   gem 'web-console', '~> 2.0'
-  gem 'capistrano'
-  gem 'capistrano3-puma'
-  gem 'capistrano-rails' , require: false
-  gem 'capistrano-bundler' , require: false
-  gem 'capistrano-rvm'
+  
+  #gem 'capistrano'
+  #gem 'capistrano3-puma'
+  #gem 'capistrano-rails' , require: false
+  #gem 'capistrano-bundler' , require: false
+  #gem 'capistrano-rvm'
+
+gem 'capistrano-rvm', '~> 0.1.2'
+gem 'capistrano-bundler', '~> 1.1.4'
+gem 'capistrano-rails', '~> 1.1.3'
+gem 'capistrano3-unicorn', '~> 0.2.1'
 end
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
