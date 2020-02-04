@@ -4,11 +4,11 @@
 # You can define all roles on a single server, or split them:
 
 
-role :app, %w{ubuntu@3.19.27.247}
-role :web, %w{ubuntu@3.19.27.247}
-role :db,  %w{ubuntu@3.19.27.247}
+role :app, %w{deploy@3.19.255.157}
+role :web, %w{deploy@3.19.255.157}
+role :db,  %w{deploy@3.19.255.157}
 
-server "3.19.27.247", user: "ubuntu", roles: %w{app db web}
+server "<3.19.255.157>", user: "<deploy>", roles: %w{app db web}
 
 set :branch, "master"
 set :stage, "production"
