@@ -1158,3 +1158,145 @@ bc4b597d33eff0c6604e5cf5a537ba4d2bc3fffb) deployed as release 20200204064046 by 
 bc4b597d33eff0c6604e5cf5a537ba4d2bc3fffb) deployed as release 20200204064046 by admin" >> /u01/apps/qwinix/rails_deploy/revisions.log
  DEBUG [f4cf1b11] 	/etc/profile.d/lang.sh: line 19: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory
   INFO [f4cf1b11] Finished in 0.878 seconds with exit status 0 (successful).
+  INFO ---------------------------------------------------------------------------
+  INFO START 2020-02-04 18:32:11 +0530 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [63f2799f] Running /usr/bin/env mkdir -p /tmp as deploy@3.19.255.157
+ DEBUG [63f2799f] Command: /usr/bin/env mkdir -p /tmp
+  INFO ---------------------------------------------------------------------------
+  INFO START 2020-02-04 18:32:48 +0530 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [be7cba5e] Running /usr/bin/env mkdir -p /tmp as deploy@3.19.255.157
+ DEBUG [be7cba5e] Command: /usr/bin/env mkdir -p /tmp
+  INFO ---------------------------------------------------------------------------
+  INFO START 2020-02-04 18:33:54 +0530 cap production deploy:check
+  INFO ---------------------------------------------------------------------------
+  INFO [f02d71e8] Running /usr/bin/env mkdir -p /tmp as deploy@3.19.255.157
+ DEBUG [f02d71e8] Command: /usr/bin/env mkdir -p /tmp
+  INFO ---------------------------------------------------------------------------
+  INFO START 2020-02-04 18:34:03 +0530 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [3948e00d] Running /usr/bin/env mkdir -p /tmp as deploy@3.19.255.157
+ DEBUG [3948e00d] Command: /usr/bin/env mkdir -p /tmp
+  INFO ---------------------------------------------------------------------------
+  INFO START 2020-02-04 18:37:26 +0530 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [f4efd6bd] Running /usr/bin/env mkdir -p /tmp as deploy@3.19.255.157
+ DEBUG [f4efd6bd] Command: /usr/bin/env mkdir -p /tmp
+  INFO ---------------------------------------------------------------------------
+  INFO START 2020-02-04 18:37:41 +0530 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [1bd45b84] Running /usr/bin/env mkdir -p /tmp as deploy@3.19.255.157
+ DEBUG [1bd45b84] Command: /usr/bin/env mkdir -p /tmp
+  INFO ---------------------------------------------------------------------------
+  INFO START 2020-02-04 18:39:47 +0530 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [63fca97f] Running /usr/bin/env mkdir -p /tmp as deploy@3.19.255.157
+ DEBUG [63fca97f] Command: /usr/bin/env mkdir -p /tmp
+  INFO ---------------------------------------------------------------------------
+  INFO START 2020-02-04 18:50:35 +0530 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [76c243ab] Running /usr/bin/env mkdir -p /tmp as ec2-user@3.19.255.157
+ DEBUG [76c243ab] Command: /usr/bin/env mkdir -p /tmp
+  INFO ---------------------------------------------------------------------------
+  INFO START 2020-02-04 18:57:24 +0530 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [46d9f5d1] Running /usr/bin/env mkdir -p /tmp as deploy@3.19.255.157
+ DEBUG [46d9f5d1] Command: /usr/bin/env mkdir -p /tmp
+  INFO [4e3f12af] Running /usr/bin/env #<StringIO:0x00007fe5ba0a8e60> /tmp/git-ssh-rails_deploy-production-admin.sh as deploy@3.19.255.157
+ DEBUG [4e3f12af] Command: /usr/bin/env #<StringIO:0x00007fe5ba0a8e60> /tmp/git-ssh-rails_deploy-production-admin.sh
+  INFO [97176575] Running /usr/bin/env chmod 700 /tmp/git-ssh-rails_deploy-production-admin.sh as deploy@3.19.255.157
+ DEBUG [97176575] Command: /usr/bin/env chmod 700 /tmp/git-ssh-rails_deploy-production-admin.sh
+  INFO [42047f83] Running /usr/bin/env git ls-remote https://github.com/vaidehiramadugu/rails_deploy-project.git HEAD as deploy@3.19.255.157
+ DEBUG [42047f83] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-rails_deploy-production-admin.sh" ; /usr/bin/env git ls-remote https://github.com/vaidehiramadugu/rails_deploy-project.git HEAD )
+  INFO [5fbcdc83] Running /usr/bin/env mkdir -p /u01/apps/qwinix/rails_deploy/shared /u01/apps/qwinix/rails_deploy/releases as deploy@3.19.255.157
+ DEBUG [5fbcdc83] Command: /usr/bin/env mkdir -p /u01/apps/qwinix/rails_deploy/shared /u01/apps/qwinix/rails_deploy/releases
+  INFO [3062120c] Running /usr/bin/env mkdir -p /u01/apps/qwinix/rails_deploy/shared/bin /u01/apps/qwinix/rails_deploy/shared/log /u01/apps/qwinix/rails_deploy/shared/tmp/pids /u01/apps/qwinix/rails_deploy/shared/tmp/cache /u01/apps/qwinix/rails_deploy/shared/tmp/sockets /u01/apps/qwinix/rails_deploy/shared/vendor/bundle /u01/apps/qwinix/rails_deploy/shared/public/system /u01/apps/qwinix/rails_deploy/shared/public/uploads as deploy@3.19.255.157
+ DEBUG [3062120c] Command: /usr/bin/env mkdir -p /u01/apps/qwinix/rails_deploy/shared/bin /u01/apps/qwinix/rails_deploy/shared/log /u01/apps/qwinix/rails_deploy/shared/tmp/pids /u01/apps/qwinix/rails_deploy/shared/tmp/cache /u01/apps/qwinix/rails_deploy/shared/tmp/sockets /u01/apps/qwinix/rails_deploy/shared/vendor/bundle /u01/apps/qwinix/rails_deploy/shared/public/system /u01/apps/qwinix/rails_deploy/shared/public/uploads
+  INFO [7984328c] Running /usr/bin/env mkdir -p /u01/apps/qwinix/rails_deploy/shared/config as deploy@3.19.255.157
+ DEBUG [7984328c] Command: /usr/bin/env mkdir -p /u01/apps/qwinix/rails_deploy/shared/config
+ DEBUG [62249e68] Running [ -f /u01/apps/qwinix/rails_deploy/shared/config/database.yml ] as deploy@3.19.255.157
+ DEBUG [62249e68] Command: [ -f /u01/apps/qwinix/rails_deploy/shared/config/database.yml ]
+ DEBUG [d09d88b4] Running [ -f /u01/apps/qwinix/rails_deploy/shared/config/application.yml ] as deploy@3.19.255.157
+ DEBUG [d09d88b4] Command: [ -f /u01/apps/qwinix/rails_deploy/shared/config/application.yml ]
+ DEBUG [3e85474c] Running [ -f /u01/apps/qwinix/rails_deploy/current/REVISION ] as deploy@3.19.255.157
+ DEBUG [3e85474c] Command: [ -f /u01/apps/qwinix/rails_deploy/current/REVISION ]
+ DEBUG [6f44461e] Running /usr/bin/env cat /u01/apps/qwinix/rails_deploy/current/REVISION 2>/dev/null as deploy@3.19.255.157
+ DEBUG [6f44461e] Command: /usr/bin/env cat /u01/apps/qwinix/rails_deploy/current/REVISION 2>/dev/null
+ DEBUG [69ac3307] Running [ -f /u01/apps/qwinix/rails_deploy/repo/HEAD ] as deploy@3.19.255.157
+ DEBUG [69ac3307] Command: [ -f /u01/apps/qwinix/rails_deploy/repo/HEAD ]
+  INFO The repository mirror is at /u01/apps/qwinix/rails_deploy/repo
+ DEBUG [2e78b644] Running if test ! -d /u01/apps/qwinix/rails_deploy/repo; then echo "Directory does not exist '/u01/apps/qwinix/rails_deploy/repo'" 1>&2; false; fi as deploy@3.19.255.157
+ DEBUG [2e78b644] Command: if test ! -d /u01/apps/qwinix/rails_deploy/repo; then echo "Directory does not exist '/u01/apps/qwinix/rails_deploy/repo'" 1>&2; false; fi
+  INFO [1d586377] Running /usr/bin/env git remote set-url origin https://github.com/vaidehiramadugu/rails_deploy-project.git as deploy@3.19.255.157
+ DEBUG [1d586377] Command: cd /u01/apps/qwinix/rails_deploy/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-rails_deploy-production-admin.sh" ; /usr/bin/env git remote set-url origin https://github.com/vaidehiramadugu/rails_deploy-project.git )
+  INFO [094ecbf1] Running /usr/bin/env git remote update --prune as deploy@3.19.255.157
+ DEBUG [094ecbf1] Command: cd /u01/apps/qwinix/rails_deploy/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-rails_deploy-production-admin.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [30931359] Running if test ! -d /u01/apps/qwinix/rails_deploy/repo; then echo "Directory does not exist '/u01/apps/qwinix/rails_deploy/repo'" 1>&2; false; fi as deploy@3.19.255.157
+ DEBUG [30931359] Command: if test ! -d /u01/apps/qwinix/rails_deploy/repo; then echo "Directory does not exist '/u01/apps/qwinix/rails_deploy/repo'" 1>&2; false; fi
+  INFO [90e409ed] Running /usr/bin/env mkdir -p /u01/apps/qwinix/rails_deploy/releases/20200204132724 as deploy@3.19.255.157
+ DEBUG [90e409ed] Command: cd /u01/apps/qwinix/rails_deploy/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-rails_deploy-production-admin.sh" ; /usr/bin/env mkdir -p /u01/apps/qwinix/rails_deploy/releases/20200204132724 )
+  INFO [81d959c6] Running /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /u01/apps/qwinix/rails_deploy/releases/20200204132724 as deploy@3.19.255.157
+ DEBUG [81d959c6] Command: cd /u01/apps/qwinix/rails_deploy/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-rails_deploy-production-admin.sh" ; /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /u01/apps/qwinix/rails_deploy/releases/20200204132724 )
+ DEBUG [51c9ff51] Running if test ! -d /u01/apps/qwinix/rails_deploy/repo; then echo "Directory does not exist '/u01/apps/qwinix/rails_deploy/repo'" 1>&2; false; fi as deploy@3.19.255.157
+ DEBUG [51c9ff51] Command: if test ! -d /u01/apps/qwinix/rails_deploy/repo; then echo "Directory does not exist '/u01/apps/qwinix/rails_deploy/repo'" 1>&2; false; fi
+ DEBUG [f95cab43] Running /usr/bin/env git rev-list --max-count=1 master as deploy@3.19.255.157
+ DEBUG [f95cab43] Command: cd /u01/apps/qwinix/rails_deploy/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-rails_deploy-production-admin.sh" ; /usr/bin/env git rev-list --max-count=1 master )
+ DEBUG [8524bd4b] Running if test ! -d /u01/apps/qwinix/rails_deploy/releases/20200204132724; then echo "Directory does not exist '/u01/apps/qwinix/rails_deploy/releases/20200204132724'" 1>&2; false; fi as deploy@3.19.255.157
+ DEBUG [8524bd4b] Command: if test ! -d /u01/apps/qwinix/rails_deploy/releases/20200204132724; then echo "Directory does not exist '/u01/apps/qwinix/rails_deploy/releases/20200204132724'" 1>&2; false; fi
+  INFO [3e20ae83] Running /usr/bin/env echo "" > REVISION as deploy@3.19.255.157
+ DEBUG [3e20ae83] Command: cd /u01/apps/qwinix/rails_deploy/releases/20200204132724 && /usr/bin/env echo "" > REVISION
+  INFO [1b3f1f9a] Running /usr/bin/env mkdir -p /u01/apps/qwinix/rails_deploy/releases/20200204132724/config as deploy@3.19.255.157
+ DEBUG [1b3f1f9a] Command: /usr/bin/env mkdir -p /u01/apps/qwinix/rails_deploy/releases/20200204132724/config
+ DEBUG [80a3cc73] Running [ -L /u01/apps/qwinix/rails_deploy/releases/20200204132724/config/database.yml ] as deploy@3.19.255.157
+ DEBUG [80a3cc73] Command: [ -L /u01/apps/qwinix/rails_deploy/releases/20200204132724/config/database.yml ]
+ DEBUG [aefbb91a] Running [ -L /u01/apps/qwinix/rails_deploy/releases/20200204132724/config/application.yml ] as deploy@3.19.255.157
+ DEBUG [aefbb91a] Command: [ -L /u01/apps/qwinix/rails_deploy/releases/20200204132724/config/application.yml ]
+  INFO [d12149cc] Running /usr/bin/env mkdir -p /u01/apps/qwinix/rails_deploy/releases/20200204132724 /u01/apps/qwinix/rails_deploy/releases/20200204132724/tmp /u01/apps/qwinix/rails_deploy/releases/20200204132724/vendor /u01/apps/qwinix/rails_deploy/releases/20200204132724/public as deploy@3.19.255.157
+ DEBUG [d12149cc] Command: /usr/bin/env mkdir -p /u01/apps/qwinix/rails_deploy/releases/20200204132724 /u01/apps/qwinix/rails_deploy/releases/20200204132724/tmp /u01/apps/qwinix/rails_deploy/releases/20200204132724/vendor /u01/apps/qwinix/rails_deploy/releases/20200204132724/public
+ DEBUG [8760f904] Running [ -L /u01/apps/qwinix/rails_deploy/releases/20200204132724/bin ] as deploy@3.19.255.157
+ DEBUG [8760f904] Command: [ -L /u01/apps/qwinix/rails_deploy/releases/20200204132724/bin ]
+ DEBUG [e1dd2a09] Running [ -L /u01/apps/qwinix/rails_deploy/releases/20200204132724/log ] as deploy@3.19.255.157
+ DEBUG [e1dd2a09] Command: [ -L /u01/apps/qwinix/rails_deploy/releases/20200204132724/log ]
+ DEBUG [75f743b3] Running [ -L /u01/apps/qwinix/rails_deploy/releases/20200204132724/tmp/pids ] as deploy@3.19.255.157
+ DEBUG [75f743b3] Command: [ -L /u01/apps/qwinix/rails_deploy/releases/20200204132724/tmp/pids ]
+ DEBUG [7814f203] Running [ -L /u01/apps/qwinix/rails_deploy/releases/20200204132724/tmp/cache ] as deploy@3.19.255.157
+ DEBUG [7814f203] Command: [ -L /u01/apps/qwinix/rails_deploy/releases/20200204132724/tmp/cache ]
+ DEBUG [386bb130] Running [ -L /u01/apps/qwinix/rails_deploy/releases/20200204132724/tmp/sockets ] as deploy@3.19.255.157
+ DEBUG [386bb130] Command: [ -L /u01/apps/qwinix/rails_deploy/releases/20200204132724/tmp/sockets ]
+ DEBUG [a9871d59] Running [ -L /u01/apps/qwinix/rails_deploy/releases/20200204132724/vendor/bundle ] as deploy@3.19.255.157
+ DEBUG [a9871d59] Command: [ -L /u01/apps/qwinix/rails_deploy/releases/20200204132724/vendor/bundle ]
+ DEBUG [d48b5afe] Running [ -L /u01/apps/qwinix/rails_deploy/releases/20200204132724/public/system ] as deploy@3.19.255.157
+ DEBUG [d48b5afe] Command: [ -L /u01/apps/qwinix/rails_deploy/releases/20200204132724/public/system ]
+ DEBUG [43d1a42c] Running [ -L /u01/apps/qwinix/rails_deploy/releases/20200204132724/public/uploads ] as deploy@3.19.255.157
+ DEBUG [43d1a42c] Command: [ -L /u01/apps/qwinix/rails_deploy/releases/20200204132724/public/uploads ]
+  INFO [c4eee711] Running /usr/bin/env ln -s /u01/apps/qwinix/rails_deploy/releases/20200204132724 /u01/apps/qwinix/rails_deploy/releases/current as deploy@3.19.255.157
+ DEBUG [c4eee711] Command: /usr/bin/env ln -s /u01/apps/qwinix/rails_deploy/releases/20200204132724 /u01/apps/qwinix/rails_deploy/releases/current
+  INFO [1227076e] Running /usr/bin/env mv /u01/apps/qwinix/rails_deploy/releases/current /u01/apps/qwinix/rails_deploy as deploy@3.19.255.157
+ DEBUG [1227076e] Command: /usr/bin/env mv /u01/apps/qwinix/rails_deploy/releases/current /u01/apps/qwinix/rails_deploy
+ DEBUG [d9dcb969] Running /usr/bin/env ls -x /u01/apps/qwinix/rails_deploy/releases as deploy@3.19.255.157
+ DEBUG [d9dcb969] Command: /usr/bin/env ls -x /u01/apps/qwinix/rails_deploy/releases
+ DEBUG [fdb83f30] Running if test ! -d /u01/apps/qwinix/rails_deploy/releases; then echo "Directory does not exist '/u01/apps/qwinix/rails_deploy/releases'" 1>&2; false; fi as deploy@3.19.255.157
+ DEBUG [fdb83f30] Command: if test ! -d /u01/apps/qwinix/rails_deploy/releases; then echo "Directory does not exist '/u01/apps/qwinix/rails_deploy/releases'" 1>&2; false; fi
+  INFO [6052b16c] Running /usr/bin/env echo "Branch master (at ) deployed as release 20200204132724 by admin" >> /u01/apps/qwinix/rails_deploy/revisions.log as deploy@3.19.255.157
+ DEBUG [6052b16c] Command: cd /u01/apps/qwinix/rails_deploy/releases && /usr/bin/env echo "Branch master (at ) deployed as release 20200204132724 by admin" >> /u01/apps/qwinix/rails_deploy/revisions.log
+  INFO ---------------------------------------------------------------------------
+  INFO START 2020-02-04 18:57:39 +0530 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [24ea110e] Running /usr/bin/env mkdir -p /tmp as deploy@3.19.255.157
+ DEBUG [24ea110e] Command: /usr/bin/env mkdir -p /tmp
+  INFO ---------------------------------------------------------------------------
+  INFO START 2020-02-04 18:58:19 +0530 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [236369c6] Running /usr/bin/env mkdir -p /tmp as deploy@3.19.255.157
+ DEBUG [236369c6] Command: /usr/bin/env mkdir -p /tmp
+  INFO ---------------------------------------------------------------------------
+  INFO START 2020-02-04 19:03:37 +0530 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [352ccd56] Running /usr/bin/env mkdir -p /tmp as deploy@3.19.255.157
+ DEBUG [352ccd56] Command: /usr/bin/env mkdir -p /tmp
+  INFO ---------------------------------------------------------------------------
+  INFO START 2020-02-04 19:04:45 +0530 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [1284a864] Running /usr/bin/env mkdir -p /tmp as deploy@3.19.255.157
+ DEBUG [1284a864] Command: /usr/bin/env mkdir -p /tmp
