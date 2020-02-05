@@ -3,14 +3,15 @@
 # Defines a single server with a list of roles and multiple properties.
 # You can define all roles on a single server, or split them:
 
+set :user, "deploy"
 
 set :stage, :production
 set :branch, :master
 set :deploy_to, "/u01/apps/qwinix/rails_deploy"
-role :app, %w{deploy@3.19.255.157}
-role :web, %w{deploy@3.19.255.157}
-role :db, %w{deploy@3.19.255.157}
-server '3.19.255.157', roles: %w{:web, :app, :db}, user: 'deploy'
+role :app, %w{deploy@52.14.81.37}
+role :web, %w{deploy@52.14.81.37}
+role :db, %w{deploy@52.14.81.37}
+server '52.14.81.37', roles: %w{:web, :app, :db}, user: 'deploy'
 #before "deploy", "puma:create_puma_bind_file_for_production"
 #after "deploy", "db:migrate_for_production"
 set :ssh_options, {

@@ -1300,3 +1300,419 @@ bc4b597d33eff0c6604e5cf5a537ba4d2bc3fffb) deployed as release 20200204064046 by 
   INFO ---------------------------------------------------------------------------
   INFO [1284a864] Running /usr/bin/env mkdir -p /tmp as deploy@3.19.255.157
  DEBUG [1284a864] Command: /usr/bin/env mkdir -p /tmp
+  INFO ---------------------------------------------------------------------------
+  INFO START 2020-02-04 20:11:43 +0530 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [cc394e01] Running /usr/bin/env mkdir -p /tmp as deploy@3.19.255.157
+ DEBUG [cc394e01] Command: /usr/bin/env mkdir -p /tmp
+  INFO ---------------------------------------------------------------------------
+  INFO START 2020-02-04 20:19:25 +0530 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [e2943c0c] Running /usr/bin/env mkdir -p /tmp as deploy@3.19.255.157
+ DEBUG [e2943c0c] Command: /usr/bin/env mkdir -p /tmp
+  INFO ---------------------------------------------------------------------------
+  INFO START 2020-02-04 20:32:03 +0530 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [74b941f1] Running /usr/bin/env mkdir -p /tmp as ec2-user@3.19.255.157
+ DEBUG [74b941f1] Command: /usr/bin/env mkdir -p /tmp
+  INFO ---------------------------------------------------------------------------
+  INFO START 2020-02-04 20:38:57 +0530 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [7de0e718] Running /usr/bin/env mkdir -p /tmp as devops@3.19.255.157
+ DEBUG [7de0e718] Command: /usr/bin/env mkdir -p /tmp
+  INFO ---------------------------------------------------------------------------
+  INFO START 2020-02-04 20:41:09 +0530 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [adfcb945] Running /usr/bin/env mkdir -p /tmp as devops@3.19.255.157
+ DEBUG [adfcb945] Command: /usr/bin/env mkdir -p /tmp
+  INFO ---------------------------------------------------------------------------
+  INFO START 2020-02-04 20:41:23 +0530 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [1aa26392] Running /usr/bin/env mkdir -p /tmp as deploy@3.19.255.157
+ DEBUG [1aa26392] Command: /usr/bin/env mkdir -p /tmp
+  INFO ---------------------------------------------------------------------------
+  INFO START 2020-02-04 20:42:00 +0530 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [f414c111] Running /usr/bin/env mkdir -p /tmp as deploy@3.19.255.157
+ DEBUG [f414c111] Command: /usr/bin/env mkdir -p /tmp
+  INFO ---------------------------------------------------------------------------
+  INFO START 2020-02-04 20:49:23 +0530 cap production deploy:check
+  INFO ---------------------------------------------------------------------------
+  INFO [8a8a51d8] Running /usr/bin/env mkdir -p /tmp as deploy@3.19.55.49
+ DEBUG [8a8a51d8] Command: /usr/bin/env mkdir -p /tmp
+  INFO ---------------------------------------------------------------------------
+  INFO START 2020-02-04 20:53:24 +0530 cap production deploy:check
+  INFO ---------------------------------------------------------------------------
+  INFO [9f21922a] Running /usr/bin/env mkdir -p /tmp as deploy@3.19.55.49
+ DEBUG [9f21922a] Command: /usr/bin/env mkdir -p /tmp
+  INFO ---------------------------------------------------------------------------
+  INFO START 2020-02-05 09:08:15 +0530 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [23e212f1] Running /usr/bin/env mkdir -p /tmp as deploy@3.19.55.49
+ DEBUG [23e212f1] Command: /usr/bin/env mkdir -p /tmp
+  INFO ---------------------------------------------------------------------------
+  INFO START 2020-02-05 09:17:01 +0530 cap production deploy:check
+  INFO ---------------------------------------------------------------------------
+  INFO [f82d8132] Running /usr/bin/env mkdir -p /tmp as deploy@3.19.55.49
+ DEBUG [f82d8132] Command: /usr/bin/env mkdir -p /tmp
+  INFO ---------------------------------------------------------------------------
+  INFO START 2020-02-05 09:50:58 +0530 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [349fd92b] Running /usr/bin/env mkdir -p /tmp as deploy@52.14.81.37
+ DEBUG [349fd92b] Command: /usr/bin/env mkdir -p /tmp
+ DEBUG [349fd92b] 	/etc/profile.d/lang.sh: line 19: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory
+  INFO [349fd92b] Finished in 3.426 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-rails_deploy-production-admin.sh 0.0%
+  INFO Uploading /tmp/git-ssh-rails_deploy-production-admin.sh 100.0%
+  INFO [aed7de2c] Running /usr/bin/env chmod 700 /tmp/git-ssh-rails_deploy-production-admin.sh as deploy@52.14.81.37
+ DEBUG [aed7de2c] Command: /usr/bin/env chmod 700 /tmp/git-ssh-rails_deploy-production-admin.sh
+ DEBUG [aed7de2c] 	/etc/profile.d/lang.sh: line 19: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory
+  INFO [aed7de2c] Finished in 0.884 seconds with exit status 0 (successful).
+  INFO [ae2421a9] Running /usr/bin/env git ls-remote https://github.com/vaidehiramadugu/rails_deploy-project.git HEAD as deploy@52.14.81.37
+ DEBUG [ae2421a9] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-rails_deploy-production-admin.sh" ; /usr/bin/env git ls-remote https://github.com/vaidehiramadugu/rails_deploy-project.git HEAD )
+ DEBUG [ae2421a9] 	/etc/profile.d/lang.sh: line 19: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory
+ DEBUG [ae2421a9] 	7a93a1ee58f246ed2c023dfde62cc7b74c487223	HEAD
+  INFO [ae2421a9] Finished in 1.053 seconds with exit status 0 (successful).
+  INFO [791e4202] Running /usr/bin/env mkdir -p /u01/apps/qwinix/rails_deploy/shared /u01/apps/qwinix/rails_deploy/releases as deploy@52.14.81.37
+ DEBUG [791e4202] Command: /usr/bin/env mkdir -p /u01/apps/qwinix/rails_deploy/shared /u01/apps/qwinix/rails_deploy/releases
+ DEBUG [791e4202] 	/etc/profile.d/lang.sh: line 19: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory
+  INFO [791e4202] Finished in 0.929 seconds with exit status 0 (successful).
+  INFO [8dc63dae] Running /usr/bin/env mkdir -p /u01/apps/qwinix/rails_deploy/shared/bin /u01/apps/qwinix/rails_deploy/shared/log /u01/apps/qwinix/rails_deploy/shared/tmp/pids /u01/apps/qwinix/rails_deploy/shared/tmp/cache /u01/apps/qwinix/rails_deploy/shared/tmp/sockets /u01/apps/qwinix/rails_deploy/shared/vendor/bundle /u01/apps/qwinix/rails_deploy/shared/public/system /u01/apps/qwinix/rails_deploy/shared/public/uploads as deploy@52.14.81.37
+ DEBUG [8dc63dae] Command: /usr/bin/env mkdir -p /u01/apps/qwinix/rails_deploy/shared/bin /u01/apps/qwinix/rails_deploy/shared/log /u01/apps/qwinix/rails_deploy/shared/tmp/pids /u01/apps/qwinix/rails_deploy/shared/tmp/cache /u01/apps/qwinix/rails_deploy/shared/tmp/sockets /u01/apps/qwinix/rails_deploy/shared/vendor/bundle /u01/apps/qwinix/rails_deploy/shared/public/system /u01/apps/qwinix/rails_deploy/shared/public/uploads
+ DEBUG [8dc63dae] 	/etc/profile.d/lang.sh: line 19: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory
+  INFO [8dc63dae] Finished in 0.939 seconds with exit status 0 (successful).
+  INFO [8afc0eb4] Running /usr/bin/env mkdir -p /u01/apps/qwinix/rails_deploy/shared/config as deploy@52.14.81.37
+ DEBUG [8afc0eb4] Command: /usr/bin/env mkdir -p /u01/apps/qwinix/rails_deploy/shared/config
+ DEBUG [8afc0eb4] 	/etc/profile.d/lang.sh: line 19: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory
+  INFO [8afc0eb4] Finished in 0.935 seconds with exit status 0 (successful).
+ DEBUG [9caefe31] Running [ -f /u01/apps/qwinix/rails_deploy/shared/config/database.yml ] as deploy@52.14.81.37
+ DEBUG [9caefe31] Command: [ -f /u01/apps/qwinix/rails_deploy/shared/config/database.yml ]
+ DEBUG [9caefe31] 	/etc/profile.d/lang.sh: line 19: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory
+ DEBUG [9caefe31] Finished in 0.802 seconds with exit status 0 (successful).
+ DEBUG [90a426e7] Running [ -f /u01/apps/qwinix/rails_deploy/shared/config/application.yml ] as deploy@52.14.81.37
+ DEBUG [90a426e7] Command: [ -f /u01/apps/qwinix/rails_deploy/shared/config/application.yml ]
+ DEBUG [90a426e7] 	/etc/profile.d/lang.sh: line 19: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory
+ DEBUG [90a426e7] Finished in 0.869 seconds with exit status 0 (successful).
+ DEBUG [c96d1414] Running [ -f /u01/apps/qwinix/rails_deploy/current/REVISION ] as deploy@52.14.81.37
+ DEBUG [c96d1414] Command: [ -f /u01/apps/qwinix/rails_deploy/current/REVISION ]
+ DEBUG [c96d1414] 	/etc/profile.d/lang.sh: line 19: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory
+ DEBUG [c96d1414] Finished in 0.897 seconds with exit status 0 (successful).
+ DEBUG [dd824da2] Running /usr/bin/env cat /u01/apps/qwinix/rails_deploy/current/REVISION 2>/dev/null as deploy@52.14.81.37
+ DEBUG [dd824da2] Command: /usr/bin/env cat /u01/apps/qwinix/rails_deploy/current/REVISION 2>/dev/null
+ DEBUG [dd824da2] 	/etc/profile.d/lang.sh: line 19: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory
+ DEBUG [dd824da2] 	/etc/profile.d/lang.sh: line 19: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory
+bc4b597d33eff0c6604e5cf5a537ba4d2bc3fffb
+ DEBUG [dd824da2] Finished in 0.807 seconds with exit status 0 (successful).
+ DEBUG [2666ae56] Running [ -f /u01/apps/qwinix/rails_deploy/repo/HEAD ] as deploy@52.14.81.37
+ DEBUG [2666ae56] Command: [ -f /u01/apps/qwinix/rails_deploy/repo/HEAD ]
+ DEBUG [2666ae56] 	/etc/profile.d/lang.sh: line 19: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory
+ DEBUG [2666ae56] Finished in 1.738 seconds with exit status 0 (successful).
+  INFO The repository mirror is at /u01/apps/qwinix/rails_deploy/repo
+ DEBUG [37e01a84] Running if test ! -d /u01/apps/qwinix/rails_deploy/repo; then echo "Directory does not exist '/u01/apps/qwinix/rails_deploy/repo'" 1>&2; false; fi as deploy@52.14.81.37
+ DEBUG [37e01a84] Command: if test ! -d /u01/apps/qwinix/rails_deploy/repo; then echo "Directory does not exist '/u01/apps/qwinix/rails_deploy/repo'" 1>&2; false; fi
+ DEBUG [37e01a84] 	/etc/profile.d/lang.sh: line 19: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory
+ DEBUG [37e01a84] Finished in 0.835 seconds with exit status 0 (successful).
+  INFO [77f68a03] Running /usr/bin/env git remote set-url origin https://github.com/vaidehiramadugu/rails_deploy-project.git as deploy@52.14.81.37
+ DEBUG [77f68a03] Command: cd /u01/apps/qwinix/rails_deploy/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-rails_deploy-production-admin.sh" ; /usr/bin/env git remote set-url origin https://github.com/vaidehiramadugu/rails_deploy-project.git )
+ DEBUG [77f68a03] 	/etc/profile.d/lang.sh: line 19: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory
+  INFO [77f68a03] Finished in 0.938 seconds with exit status 0 (successful).
+  INFO [bb9335aa] Running /usr/bin/env git remote update --prune as deploy@52.14.81.37
+ DEBUG [bb9335aa] Command: cd /u01/apps/qwinix/rails_deploy/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-rails_deploy-production-admin.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [bb9335aa] 	/etc/profile.d/lang.sh: line 19: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory
+ DEBUG [bb9335aa] 	Fetching origin
+ DEBUG [bb9335aa] 	remote: Enumerating objects: 86, done.[K
+ DEBUG [bb9335aa] 	remote: Counting objects:   1% (1/86)[K
+ DEBUG [bb9335aa] 	remote: Counting objects:   2% (2/86)[K
+ DEBUG [bb9335aa] 	remote: Counting objects:   3% (3/86)[K
+ DEBUG [bb9335aa] 	remote: Counting objects:   4% (4/86)[K
+ DEBUG [bb9335aa] 	remote: Counting objects:   5% (5/86)[K
+ DEBUG [bb9335aa] 	remote: Counting objects:   6% (6/86)[K
+ DEBUG [bb9335aa] 	remote: Counting objects:   8% (7/86)[K
+ DEBUG [bb9335aa] 	remote: Counting objects:   9% (8/86)[K
+ DEBUG [bb9335aa] 	remote: Counting objects:  10% (9/86)[K
+ DEBUG [bb9335aa] 	remote: Counting objects:  11% (10/86)[K
+ DEBUG [bb9335aa] 	remote: Counting objects:  12% (11/86)[K
+ DEBUG [bb9335aa] 	remote: Counting objects:  13% (12/86)[K
+ DEBUG [bb9335aa] 	remote: Counting objects:  15% (13/86)[K
+ DEBUG [bb9335aa] 	remote: Counting objects:  16% (14/86)[K
+ DEBUG [bb9335aa] 	remote: Counting objects:  17% (15/86)[K
+ DEBUG [bb9335aa] 	remote: Counting objects:  18% (16/86)[K
+ DEBUG [bb9335aa] 	remote: Counting objects:  19% (17/86)[K
+ DEBUG [bb9335aa] 	remote: Counting objects:  20% (18/86)[K
+ DEBUG [bb9335aa] 	remote: Counting objects:  22% (19/86)[K
+ DEBUG [bb9335aa] 	remote: Counting objects:  23% (20/86)[K
+ DEBUG [bb9335aa] 	remote: Counting objects:  24% (21/86)[K
+ DEBUG [bb9335aa] 	remote: Counting objects:  25% (22/86)[K
+ DEBUG [bb9335aa] 	remote: Counting objects:  26% (23/86)[K
+ DEBUG [bb9335aa] 	remote: Counting objects:  27% (24/86)[K
+ DEBUG [bb9335aa] 	remote: Counting objects:  29% (25/86)[K
+ DEBUG [bb9335aa] 	remote: Counting objects:  30% (26/86)[K
+ DEBUG [bb9335aa] 	remote: Counting objects:  31% (27/86)[K
+ DEBUG [bb9335aa] 	remote: Counting objects:  32% (28/86)[K
+ DEBUG [bb9335aa] 	remote: Counting objects:  33% (29/86)[K
+ DEBUG [bb9335aa] 	remote: Counting objects:  34% (30/86)[K
+ DEBUG [bb9335aa] 	remote: Counting objects:  36% (31/86)[K
+ DEBUG [bb9335aa] 	remote: Counting objects:  37% (32/86)[K
+ DEBUG [bb9335aa] 	remote: Counting objects:  38% (33/86)[K
+ DEBUG [bb9335aa] 	remote: Counting objects:  39% (34/86)[K
+ DEBUG [bb9335aa] 	remote: Counting objects:  40% (35/86)[K
+ DEBUG [bb9335aa] 	remote: Counting objects:  41% (36/86)[K
+ DEBUG [bb9335aa] 	remote: Counting objects:  43% (37/86)[K
+ DEBUG [bb9335aa] 	remote: Counting objects:  44% (38/86)[K
+ DEBUG [bb9335aa] 	remote: Counting objects:  45% (39/86)[K
+ DEBUG [bb9335aa] 	remote: Counting objects:  46% (40/86)[K
+ DEBUG [bb9335aa] 	remote: Counting objects:  47% (41/86)[K
+ DEBUG [bb9335aa] 	remote: Counting objects:  48% (42/86)[K
+ DEBUG [bb9335aa] 	remote: Counting objects:  50% (43/86)[K
+ DEBUG [bb9335aa] 	remote: Counting objects:  51% (44/86)[K
+ DEBUG [bb9335aa] 	remote: Counting objects:  52% (45/86)[K
+ DEBUG [bb9335aa] 	remote: Counting objects:  53% (46/86)[K
+ DEBUG [bb9335aa] 	remote: Counting objects:  54% (47/86)[K
+ DEBUG [bb9335aa] 	remote: Counting objects:  55% (48/86)[K
+ DEBUG [bb9335aa] 	remote: Counting objects:  56% (49/86)[K
+ DEBUG [bb9335aa] 	remote: Counting objects:  58% (50/86)[K
+ DEBUG [bb9335aa] 	remote: Counting objects:  59% (51/86)[K
+ DEBUG [bb9335aa] 	remote: Counting objects:  60% (52/86)[K
+ DEBUG [bb9335aa] 	remote: Counting objects:  61% (53/86)[K
+ DEBUG [bb9335aa] 	remote: Counting objects:  62% (54/86)[K
+ DEBUG [bb9335aa] 	remote: Counting objects:  63% (55/86)[K
+ DEBUG [bb9335aa] 	remote: Counting objects:  65% (56/86)[K
+ DEBUG [bb9335aa] 	remote: Counting objects:  66% (57/86)[K
+ DEBUG [bb9335aa] 	remote: Counting objects:  67% (58/86)[K
+ DEBUG [bb9335aa] 	remote: Counting objects:  68% (59/86)[K
+ DEBUG [bb9335aa] 	remote: Counting objects:  69% (60/86)[K
+ DEBUG [bb9335aa] 	remote: Counting objects:  70% (61/86)[K
+ DEBUG [bb9335aa] 	remote: Counting objects:  72% (62/86)
+ DEBUG [bb9335aa] 	remote: Counting objects:  73% (63/86)[K
+ DEBUG [bb9335aa] 	remote: Counting objects:  74% (64/86)[K
+ DEBUG [bb9335aa] 	remote: Counting objects:  75% (65/86)[K
+ DEBUG [bb9335aa] 	remote: Counting objects:  76% (66/86)[K
+ DEBUG [bb9335aa] 	remote: Counting objects:  77% (67/86)[K
+ DEBUG [bb9335aa] 	remote: Counting objects:  79% (68/86)[K
+ DEBUG [bb9335aa] 	remote: Counting objects:  80% (69/86)[K
+ DEBUG [bb9335aa] 	remote: Counting objects:  81% (70/86)[K
+ DEBUG [bb9335aa] 	remote: Counting objects:  82% (71/86)[K
+ DEBUG [bb9335aa] 	remote: Counting objects:  83% (72/86)[K
+ DEBUG [bb9335aa] 	remote: Counting objects:  84% (73/86)[K
+ DEBUG [bb9335aa] 	remote: Counting objects:  86% (74/86)[K
+ DEBUG [bb9335aa] 	remote: Counting objects:  87% (75/86)[K
+ DEBUG [bb9335aa] 	remote: Counting objects:  88% (76/86)[K
+ DEBUG [bb9335aa] 	remote: Counting objects:  89% (77/86)[K
+ DEBUG [bb9335aa] 	remote: Counting objects:  90% (78/86)[K
+ DEBUG [bb9335aa] 	remote: Counting objects:  91% (79/86)[K
+ DEBUG [bb9335aa] 	remote: Counting objects:  93% (80/86)[K
+ DEBUG [bb9335aa] 	remote: Counting objects:  94% (81/86)[K
+ DEBUG [bb9335aa] 	remote: Counting objects:  95% (82/86)[K
+ DEBUG [bb9335aa] 	remote: Counting objects:  96% (83/86)[K
+ DEBUG [bb9335aa] 	remote: Counting objects:  97% (84/86)[K
+ DEBUG [bb9335aa] 	remote: Counting objects:  98% (85/86)[K
+ DEBUG [bb9335aa] 	remote: Counting objects: 100% (86/86)[K
+ DEBUG [bb9335aa] 	remote: Counting objects: 100% (86/86), done.[K
+ DEBUG [bb9335aa] 	remote: Compressing objects:   3% (1/32)[K
+ DEBUG [bb9335aa] 	remote: Compressing objects:   6% (2/32)[K
+ DEBUG [bb9335aa] 	remote: Compressing objects:   9% (3/32)[K
+ DEBUG [bb9335aa] 	remote: Compressing objects:  12% (4/32)[K
+ DEBUG [bb9335aa] 	remote: Compressing objects:  15% (5/32)[K
+ DEBUG [bb9335aa] 	remote: Compressing objects:  18% (6/32)[K
+ DEBUG [bb9335aa] 	remote: Compressing objects:  21% (7/32)[K
+ DEBUG [bb9335aa] 	remote: Compressing objects:  25% (8/32)[K
+ DEBUG [bb9335aa] 	remote: Compressing objects:  28% (9/32)[K
+ DEBUG [bb9335aa] 	remote: Compressing objects:  31% (10/32)[K
+ DEBUG [bb9335aa] 	remote: Compressing objects:  34% (11/32)[K
+ DEBUG [bb9335aa] 	remote: Compressing objects:  37% (12/32)[K
+ DEBUG [bb9335aa] 	remote: Compressing objects:  40% (13/32)[K
+ DEBUG [bb9335aa] 	remote: Compressing objects:  43% (14/32)[K
+ DEBUG [bb9335aa] 	remote: Compressing objects:  46% (15/32)[K
+ DEBUG [bb9335aa] 	remote: Compressing objects:  50% (16/32)[K
+ DEBUG [bb9335aa] 	remote: Compressing objects:  53% (17/32)[K
+ DEBUG [bb9335aa] 	remote: Compressing objects:  56% (18/32)[K
+ DEBUG [bb9335aa] 	remote: Compressing objects:  59% (19/32)[K
+ DEBUG [bb9335aa] 	remote: Compressing objects:  62% (20/32)[K
+ DEBUG [bb9335aa] 	remote: Compressing objects:  65% (21/32)[K
+ DEBUG [bb9335aa] 	remote: Compressing objects:  68% (22/32)[K
+ DEBUG [bb9335aa] 	remote: Compressing objects:  71% (23/32)[K
+ DEBUG [bb9335aa] 	remote: Compressing objects:  75% (24/32)[K
+ DEBUG [bb9335aa] 	remote: Compressing objects:  78% (25/32)[K
+ DEBUG [bb9335aa] 	remote: Compressing objects:  81% (26/32)[K
+ DEBUG [bb9335aa] 	remote: Compressing objects:  84% (27/32)[K
+ DEBUG [bb9335aa] 	remote: Compressing objects:  87% (28/32)[K
+ DEBUG [bb9335aa] 	remote: Compressing objects:  90% (29/32)[K
+ DEBUG [bb9335aa] 	remote: Compressing objects:  93% (30/32)[K
+ DEBUG [bb9335aa] 	remote: Compressing objects:  96% (31/32)[K
+ DEBUG [bb9335aa] 	remote: Compressing objects: 100% (32/32)[K
+ DEBUG [bb9335aa] 	remote: Compressing objects: 100% (32/32), done.[K
+ DEBUG [bb9335aa] 	remote: Total 58 (delta 22), reused 58 (delta 22), pack-reused 0[K
+ DEBUG [bb9335aa] 	[K
+ DEBUG [bb9335aa] 	Unpacking objects:   1% (1/58)
+ DEBUG [bb9335aa] 	[K
+ DEBUG [bb9335aa] 	Unpacking objects:   3% (2/58)
+ DEBUG [bb9335aa] 	[K
+ DEBUG [bb9335aa] 	Unpacking objects:   5% (3/58)
+ DEBUG [bb9335aa] 	[K
+ DEBUG [bb9335aa] 	Unpacking objects:   6% (4/58)
+ DEBUG [bb9335aa] 	[K
+ DEBUG [bb9335aa] 	Unpacking objects:   8% (5/58)
+ DEBUG [bb9335aa] 	[K
+ DEBUG [bb9335aa] 	Unpacking objects:  10% (6/58)
+ DEBUG [bb9335aa] 	[K
+ DEBUG [bb9335aa] 	Unpacking objects:  12% (7/58)
+ DEBUG [bb9335aa] 	[K
+ DEBUG [bb9335aa] 	Unpacking objects:  13% (8/58)
+ DEBUG [bb9335aa] 	[K
+ DEBUG [bb9335aa] 	Unpacking objects:  15% (9/58)
+ DEBUG [bb9335aa] 	[K
+ DEBUG [bb9335aa] 	Unpacking objects:  17% (10/58)
+ DEBUG [bb9335aa] 	[K
+ DEBUG [bb9335aa] 	Unpacking objects:  18% (11/58)
+ DEBUG [bb9335aa] 	[K
+ DEBUG [bb9335aa] 	Unpacking objects:  20% (12/58)
+ DEBUG [bb9335aa] 	[K
+ DEBUG [bb9335aa] 	Unpacking objects:  22% (13/58)
+ DEBUG [bb9335aa] 	[K
+ DEBUG [bb9335aa] 	Unpacking objects:  24% (14/58)
+ DEBUG [bb9335aa] 	[K
+ DEBUG [bb9335aa] 	Unpacking objects:  25% (15/58)
+ DEBUG [bb9335aa] 	[K
+ DEBUG [bb9335aa] 	Unpacking objects:  27% (16/58)
+ DEBUG [bb9335aa] 	[K
+ DEBUG [bb9335aa] 	Unpacking objects:  29% (17/58)
+ DEBUG [bb9335aa] 	[K
+ DEBUG [bb9335aa] 	Unpacking objects:  31% (18/58)
+ DEBUG [bb9335aa] 	[K
+ DEBUG [bb9335aa] 	Unpacking objects:  32% (19/58)
+ DEBUG [bb9335aa] 	[K
+ DEBUG [bb9335aa] 	Unpacking objects:  34% (20/58)
+ DEBUG [bb9335aa] 	[K
+ DEBUG [bb9335aa] 	Unpacking objects:  36% (21/58)
+ DEBUG [bb9335aa] 	[K
+ DEBUG [bb9335aa] 	Unpacking objects:  37% (22/58)
+ DEBUG [bb9335aa] 	[K
+ DEBUG [bb9335aa] 	Unpacking objects:  39% (23/58)
+ DEBUG [bb9335aa] 	[K
+ DEBUG [bb9335aa] 	Unpacking objects:  41% (24/58)
+ DEBUG [bb9335aa] 	[K
+ DEBUG [bb9335aa] 	Unpacking objects:  43% (25/58)
+ DEBUG [bb9335aa] 	[K
+ DEBUG [bb9335aa] 	Unpacking objects:  44% (26/58)
+ DEBUG [bb9335aa] 	[K
+ DEBUG [bb9335aa] 	Unpacking objects:  46% (27/58)
+ DEBUG [bb9335aa] 	[K
+ DEBUG [bb9335aa] 	Unpacking objects:  48% (28/58)
+ DEBUG [bb9335aa] 	[K
+ DEBUG [bb9335aa] 	Unpacking objects:  50% (29/58)
+ DEBUG [bb9335aa] 	[K
+ DEBUG [bb9335aa] 	Unpacking objects:  51% (30/58)
+ DEBUG [bb9335aa] 	[K
+ DEBUG [bb9335aa] 	Unpacking objects:  53% (31/58)
+ DEBUG [bb9335aa] 	[K
+ DEBUG [bb9335aa] 	Unpacking objects:  55% (32/58)
+ DEBUG [bb9335aa] 	[K
+ DEBUG [bb9335aa] 	Unpacking objects:  56% (33/58)
+ DEBUG [bb9335aa] 	[K
+ DEBUG [bb9335aa] 	Unpacking objects:  58% (34/58)
+ DEBUG [bb9335aa] 	[K
+ DEBUG [bb9335aa] 	Unpacking objects:  60% (35/58)
+ DEBUG [bb9335aa] 	[K
+ DEBUG [bb9335aa] 	Unpacking objects:  62% (36/58)
+ DEBUG [bb9335aa] 	[K
+ DEBUG [bb9335aa] 	Unpacking objects:  63% (37/58)
+ DEBUG [bb9335aa] 	[K
+ DEBUG [bb9335aa] 	Unpacking objects:  65% (38/58)
+ DEBUG [bb9335aa] 	[K
+ DEBUG [bb9335aa] 	Unpacking objects:  67% (39/58)
+ DEBUG [bb9335aa] 	[K
+ DEBUG [bb9335aa] 	Unpacking objects:  68% (40/58)
+ DEBUG [bb9335aa] 	[K
+ DEBUG [bb9335aa] 	Unpacking objects:  70% (41/58)
+ DEBUG [bb9335aa] 	[K
+ DEBUG [bb9335aa] 	Unpacking objects:  72% (42/58)
+ DEBUG [bb9335aa] 	[K
+ DEBUG [bb9335aa] 	Unpacking objects:  74% (43/58)
+ DEBUG [bb9335aa] 	[K
+ DEBUG [bb9335aa] 	Unpacking objects:  75% (44/58)
+ DEBUG [bb9335aa] 	[K
+ DEBUG [bb9335aa] 	Unpacking objects:  77% (45/58)
+ DEBUG [bb9335aa] 	[K
+ DEBUG [bb9335aa] 	Unpacking objects:  79% (46/58)
+ DEBUG [bb9335aa] 	[K
+ DEBUG [bb9335aa] 	Unpacking objects:  81% (47/58)
+ DEBUG [bb9335aa] 	[K
+ DEBUG [bb9335aa] 	Unpacking objects:  82% (48/58)
+ DEBUG [bb9335aa] 	[K
+ DEBUG [bb9335aa] 	Unpacking objects:  84% (49/58)
+ DEBUG [bb9335aa] 	[K
+ DEBUG [bb9335aa] 	Unpacking objects:  86% (50/58)
+ DEBUG [bb9335aa] 	[K
+ DEBUG [bb9335aa] 	Unpacking objects:  87% (51/58)
+ DEBUG [bb9335aa] 	[K
+ DEBUG [bb9335aa] 	Unpacking objects:  89% (52/58)
+ DEBUG [bb9335aa] 	[K
+ DEBUG [bb9335aa] 	Unpacking objects:  91% (53/58)
+ DEBUG [bb9335aa] 	[K
+ DEBUG [bb9335aa] 	Unpacking objects:  93% (54/58)
+ DEBUG [bb9335aa] 	[K
+ DEBUG [bb9335aa] 	Unpacking objects:  94% (55/58)
+ DEBUG [bb9335aa] 	[K
+ DEBUG [bb9335aa] 	Unpacking objects:  96% (56/58)
+ DEBUG [bb9335aa] 	[K
+ DEBUG [bb9335aa] 	Unpacking objects:  98% (57/58)
+ DEBUG [bb9335aa] 	[K
+ DEBUG [bb9335aa] 	Unpacking objects: 100% (58/58)
+ DEBUG [bb9335aa] 	[K
+ DEBUG [bb9335aa] 	Unpacking objects: 100% (58/58), done.
+ DEBUG [bb9335aa] 	From https://github.com/vaidehiramadugu/rails_deploy-project
+   bc4b597..7a93a1e  master     -> master
+  INFO [bb9335aa] Finished in 2.096 seconds with exit status 0 (successful).
+ DEBUG [f867cdb6] Running if test ! -d /u01/apps/qwinix/rails_deploy/repo; then echo "Directory does not exist '/u01/apps/qwinix/rails_deploy/repo'" 1>&2; false; fi as deploy@52.14.81.37
+ DEBUG [f867cdb6] Command: if test ! -d /u01/apps/qwinix/rails_deploy/repo; then echo "Directory does not exist '/u01/apps/qwinix/rails_deploy/repo'" 1>&2; false; fi
+ DEBUG [f867cdb6] 	/etc/profile.d/lang.sh: line 19: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory
+ DEBUG [f867cdb6] Finished in 0.892 seconds with exit status 0 (successful).
+  INFO [3b48fb47] Running /usr/bin/env mkdir -p /u01/apps/qwinix/rails_deploy/releases/20200205042111 as deploy@52.14.81.37
+ DEBUG [3b48fb47] Command: cd /u01/apps/qwinix/rails_deploy/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-rails_deploy-production-admin.sh" ; /usr/bin/env mkdir -p /u01/apps/qwinix/rails_deploy/releases/20200205042111 )
+ DEBUG [3b48fb47] 	/etc/profile.d/lang.sh: line 19: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory
+  INFO [3b48fb47] Finished in 0.871 seconds with exit status 0 (successful).
+  INFO [a8b5eb90] Running /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /u01/apps/qwinix/rails_deploy/releases/20200205042111 as deploy@52.14.81.37
+ DEBUG [a8b5eb90] Command: cd /u01/apps/qwinix/rails_deploy/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-rails_deploy-production-admin.sh" ; /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /u01/apps/qwinix/rails_deploy/releases/20200205042111 )
+ DEBUG [a8b5eb90] 	/etc/profile.d/lang.sh: line 19: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory
+  INFO [a8b5eb90] Finished in 3.345 seconds with exit status 0 (successful).
+ DEBUG [3ba64461] Running if test ! -d /u01/apps/qwinix/rails_deploy/repo; then echo "Directory does not exist '/u01/apps/qwinix/rails_deploy/repo'" 1>&2; false; fi as deploy@52.14.81.37
+ DEBUG [3ba64461] Command: if test ! -d /u01/apps/qwinix/rails_deploy/repo; then echo "Directory does not exist '/u01/apps/qwinix/rails_deploy/repo'" 1>&2; false; fi
+ DEBUG [3ba64461] 	/etc/profile.d/lang.sh: line 19: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory
+ DEBUG [3ba64461] Finished in 0.831 seconds with exit status 0 (successful).
+ DEBUG [e08e85f6] Running /usr/bin/env git rev-list --max-count=1 master as deploy@52.14.81.37
+ DEBUG [e08e85f6] Command: cd /u01/apps/qwinix/rails_deploy/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-rails_deploy-production-admin.sh" ; /usr/bin/env git rev-list --max-count=1 master )
+ DEBUG [e08e85f6] 	/etc/profile.d/lang.sh: line 19: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory
+ DEBUG [e08e85f6] 	7a93a1ee58f246ed2c023dfde62cc7b74c487223
+ DEBUG [e08e85f6] Finished in 0.839 seconds with exit status 0 (successful).
+ DEBUG [595e2337] Running if test ! -d /u01/apps/qwinix/rails_deploy/releases/20200205042111; then echo "Directory does not exist '/u01/apps/qwinix/rails_deploy/releases/20200205042111'" 1>&2; false; fi as deploy@52.14.81.37
+ DEBUG [595e2337] Command: if test ! -d /u01/apps/qwinix/rails_deploy/releases/20200205042111; then echo "Directory does not exist '/u01/apps/qwinix/rails_deploy/releases/20200205042111'" 1>&2; false; fi
+ DEBUG [595e2337] 	/etc/profile.d/lang.sh: line 19: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory
+ DEBUG [595e2337] Finished in 0.889 seconds with exit status 0 (successful).
+  INFO [d3c85a0a] Running /usr/bin/env echo "/etc/profile.d/lang.sh: line 19: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory
+7a93a1ee58f246ed2c023dfde62cc7b74c487223" > REVISION as deploy@52.14.81.37
+ DEBUG [d3c85a0a] Command: cd /u01/apps/qwinix/rails_deploy/releases/20200205042111 && /usr/bin/env echo "/etc/profile.d/lang.sh: line 19: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory
+7a93a1ee58f246ed2c023dfde62cc7b74c487223" > REVISION
+ DEBUG [d3c85a0a] 	/etc/profile.d/lang.sh: line 19: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory
+  INFO [d3c85a0a] Finished in 0.895 seconds with exit status 0 (successful).
+  INFO [ea5c482b] Running /usr/bin/env mkdir -p /u01/apps/qwinix/rails_deploy/releases/20200205042111/config as deploy@52.14.81.37
+ DEBUG [ea5c482b] Command: /usr/bin/env mkdir -p /u01/apps/qwinix/rails_deploy/releases/20200205042111/config
+ DEBUG [ea5c482b] 	/etc/profile.d/lang.sh: line 19: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory
+  INFO [ea5c482b] Finished in 0.884 seconds with exit status 0 (successful).
+ DEBUG [30bfb203] Running [ -L /u01/apps/qwinix/rails_deploy/releases/20200205042111/config/database.yml ] as deploy@52.14.81.37
+ DEBUG [30bfb203] Command: [ -L /u01/apps/qwinix/rails_deploy/releases/20200205042111/config/database.yml ]
+ DEBUG [30bfb203] 	/etc/profile.d/lang.sh: line 19: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory
+ DEBUG [30bfb203] Finished in 0.880 seconds with exit status 1 (failed).
+ DEBUG [24301391] Running [ -f /u01/apps/qwinix/rails_deploy/releases/20200205042111/config/database.yml ] as deploy@52.14.81.37
+ DEBUG [24301391] Command: [ -f /u01/apps/qwinix/rails_deploy/releases/20200205042111/config/database.yml ]
+ DEBUG [24301391] 	/etc/profile.d/lang.sh: line 19: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory
+ DEBUG [24301391] Finished in 0.941 seconds with exit status 0 (successful).
+  INFO [a9d14bba] Running /usr/bin/env rm /u01/apps/qwinix/rails_deploy/releases/20200205042111/config/database.yml as deploy@52.14.81.37
+ DEBUG [a9d14bba] Command: /usr/bin/env rm /u01/apps/qwinix/rails_deploy/releases/20200205042111/config/database.yml
+ DEBUG [a9d14bba] 	/etc/profile.d/lang.sh: line 19: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory
+  INFO [a9d14bba] Finished in 0.939 seconds with exit status 0 (successful).
+  INFO [954229fa] Running /usr/bin/env ln -s /u01/apps/qwinix/rails_deploy/shared/config/database.yml /u01/apps/qwinix/rails_deploy/releases/20200205042111/config/database.yml as deploy@52.14.81.37
+ DEBUG [954229fa] Command: /usr/bin/env ln -s /u01/apps/qwinix/rails_deploy/shared/config/database.yml /u01/apps/qwinix/rails_deploy/releases/20200205042111/config/database.yml
+ DEBUG [954229fa] 	/etc/profile.d/lang.sh: line 19: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory
+  INFO [954229fa] Finished in 0.939 seconds with exit status 0 (successful).
+ DEBUG [a414099f] Running [ -L /u01/apps/qwinix/rails_deploy/releases/20200205042111/config/application.yml ] as deploy@52.14.81.37
+ DEBUG [a414099f] Command: [ -L /u01/apps/qwinix/rails_deploy/releases/20200205042111/config/application.yml ]
