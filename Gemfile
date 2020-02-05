@@ -29,7 +29,7 @@ gem 'bcrypt_pbkdf', '>= 1.0', '< 2.0'
  gem 'bcrypt', '~> 3.1.7'
 gem 'execjs'
  gem 'therubyracer'
-
+gem 'passenger' 
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
 
