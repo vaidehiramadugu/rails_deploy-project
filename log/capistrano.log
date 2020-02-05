@@ -4285,3 +4285,312 @@ b8880dbb5576e6012e7f42769ab8df289e3d5c8a) deployed as release 20200205050752 by 
 b8880dbb5576e6012e7f42769ab8df289e3d5c8a) deployed as release 20200205050752 by admin" >> /u01/apps/qwinix/rails_deploy/revisions.log
  DEBUG [bc57c2ea] 	/etc/profile.d/lang.sh: line 19: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory
   INFO [bc57c2ea] Finished in 0.855 seconds with exit status 0 (successful).
+  INFO ---------------------------------------------------------------------------
+  INFO START 2020-02-05 10:49:16 +0530 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [f726f95a] Running /usr/bin/env mkdir -p /tmp as deploy@52.14.81.37
+ DEBUG [f726f95a] Command: /usr/bin/env mkdir -p /tmp
+ DEBUG [f726f95a] 	/etc/profile.d/lang.sh: line 19: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory
+  INFO [f726f95a] Finished in 3.860 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-rails_deploy-production-admin.sh 0.0%
+  INFO Uploading /tmp/git-ssh-rails_deploy-production-admin.sh 100.0%
+  INFO [ebe149ce] Running /usr/bin/env chmod 700 /tmp/git-ssh-rails_deploy-production-admin.sh as deploy@52.14.81.37
+ DEBUG [ebe149ce] Command: /usr/bin/env chmod 700 /tmp/git-ssh-rails_deploy-production-admin.sh
+ DEBUG [ebe149ce] 	/etc/profile.d/lang.sh: line 19: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory
+  INFO [ebe149ce] Finished in 0.913 seconds with exit status 0 (successful).
+  INFO [0f93fba9] Running /usr/bin/env git ls-remote https://github.com/vaidehiramadugu/rails_deploy-project.git HEAD as deploy@52.14.81.37
+ DEBUG [0f93fba9] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-rails_deploy-production-admin.sh" ; /usr/bin/env git ls-remote https://github.com/vaidehiramadugu/rails_deploy-project.git HEAD )
+ DEBUG [0f93fba9] 	/etc/profile.d/lang.sh: line 19: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory
+ DEBUG [0f93fba9] 	8e71a6eaabb99e34c1b2b8b8d70f3bfa98e792a4	HEAD
+  INFO [0f93fba9] Finished in 0.938 seconds with exit status 0 (successful).
+  INFO [a3cfa36c] Running /usr/bin/env mkdir -p /u01/apps/qwinix/rails_deploy/shared /u01/apps/qwinix/rails_deploy/releases as deploy@52.14.81.37
+ DEBUG [a3cfa36c] Command: /usr/bin/env mkdir -p /u01/apps/qwinix/rails_deploy/shared /u01/apps/qwinix/rails_deploy/releases
+ DEBUG [a3cfa36c] 	/etc/profile.d/lang.sh: line 19: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory
+  INFO [a3cfa36c] Finished in 0.940 seconds with exit status 0 (successful).
+  INFO [a22bd0d4] Running /usr/bin/env mkdir -p /u01/apps/qwinix/rails_deploy/shared/bin /u01/apps/qwinix/rails_deploy/shared/log /u01/apps/qwinix/rails_deploy/shared/tmp/pids /u01/apps/qwinix/rails_deploy/shared/tmp/cache /u01/apps/qwinix/rails_deploy/shared/tmp/sockets /u01/apps/qwinix/rails_deploy/shared/vendor/bundle /u01/apps/qwinix/rails_deploy/shared/public/system /u01/apps/qwinix/rails_deploy/shared/public/uploads as deploy@52.14.81.37
+ DEBUG [a22bd0d4] Command: /usr/bin/env mkdir -p /u01/apps/qwinix/rails_deploy/shared/bin /u01/apps/qwinix/rails_deploy/shared/log /u01/apps/qwinix/rails_deploy/shared/tmp/pids /u01/apps/qwinix/rails_deploy/shared/tmp/cache /u01/apps/qwinix/rails_deploy/shared/tmp/sockets /u01/apps/qwinix/rails_deploy/shared/vendor/bundle /u01/apps/qwinix/rails_deploy/shared/public/system /u01/apps/qwinix/rails_deploy/shared/public/uploads
+ DEBUG [a22bd0d4] 	/etc/profile.d/lang.sh: line 19: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory
+  INFO [a22bd0d4] Finished in 0.937 seconds with exit status 0 (successful).
+  INFO [f42be98f] Running /usr/bin/env mkdir -p /u01/apps/qwinix/rails_deploy/shared/config as deploy@52.14.81.37
+ DEBUG [f42be98f] Command: /usr/bin/env mkdir -p /u01/apps/qwinix/rails_deploy/shared/config
+ DEBUG [f42be98f] 	/etc/profile.d/lang.sh: line 19: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory
+  INFO [f42be98f] Finished in 0.835 seconds with exit status 0 (successful).
+ DEBUG [b24cca44] Running [ -f /u01/apps/qwinix/rails_deploy/shared/config/database.yml ] as deploy@52.14.81.37
+ DEBUG [b24cca44] Command: [ -f /u01/apps/qwinix/rails_deploy/shared/config/database.yml ]
+ DEBUG [b24cca44] 	/etc/profile.d/lang.sh: line 19: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory
+ DEBUG [b24cca44] Finished in 0.892 seconds with exit status 0 (successful).
+ DEBUG [4dd2aa5f] Running [ -f /u01/apps/qwinix/rails_deploy/shared/config/application.yml ] as deploy@52.14.81.37
+ DEBUG [4dd2aa5f] Command: [ -f /u01/apps/qwinix/rails_deploy/shared/config/application.yml ]
+ DEBUG [4dd2aa5f] 	/etc/profile.d/lang.sh: line 19: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory
+ DEBUG [4dd2aa5f] Finished in 0.987 seconds with exit status 0 (successful).
+ DEBUG [e79cccef] Running [ -f /u01/apps/qwinix/rails_deploy/current/REVISION ] as deploy@52.14.81.37
+ DEBUG [e79cccef] Command: [ -f /u01/apps/qwinix/rails_deploy/current/REVISION ]
+ DEBUG [e79cccef] 	/etc/profile.d/lang.sh: line 19: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory
+ DEBUG [e79cccef] Finished in 0.939 seconds with exit status 0 (successful).
+ DEBUG [1de93e3f] Running /usr/bin/env cat /u01/apps/qwinix/rails_deploy/current/REVISION 2>/dev/null as deploy@52.14.81.37
+ DEBUG [1de93e3f] Command: /usr/bin/env cat /u01/apps/qwinix/rails_deploy/current/REVISION 2>/dev/null
+ DEBUG [1de93e3f] 	/etc/profile.d/lang.sh: line 19: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory
+ DEBUG [1de93e3f] 	/etc/profile.d/lang.sh: line 19: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory
+b8880dbb5576e6012e7f42769ab8df289e3d5c8a
+ DEBUG [1de93e3f] Finished in 0.836 seconds with exit status 0 (successful).
+ DEBUG [918ebf50] Running [ -f /u01/apps/qwinix/rails_deploy/repo/HEAD ] as deploy@52.14.81.37
+ DEBUG [918ebf50] Command: [ -f /u01/apps/qwinix/rails_deploy/repo/HEAD ]
+ DEBUG [918ebf50] 	/etc/profile.d/lang.sh: line 19: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory
+ DEBUG [918ebf50] Finished in 0.834 seconds with exit status 0 (successful).
+  INFO The repository mirror is at /u01/apps/qwinix/rails_deploy/repo
+ DEBUG [9dc79e1f] Running if test ! -d /u01/apps/qwinix/rails_deploy/repo; then echo "Directory does not exist '/u01/apps/qwinix/rails_deploy/repo'" 1>&2; false; fi as deploy@52.14.81.37
+ DEBUG [9dc79e1f] Command: if test ! -d /u01/apps/qwinix/rails_deploy/repo; then echo "Directory does not exist '/u01/apps/qwinix/rails_deploy/repo'" 1>&2; false; fi
+ DEBUG [9dc79e1f] 	/etc/profile.d/lang.sh: line 19: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory
+ DEBUG [9dc79e1f] Finished in 0.835 seconds with exit status 0 (successful).
+  INFO [2e743688] Running /usr/bin/env git remote set-url origin https://github.com/vaidehiramadugu/rails_deploy-project.git as deploy@52.14.81.37
+ DEBUG [2e743688] Command: cd /u01/apps/qwinix/rails_deploy/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-rails_deploy-production-admin.sh" ; /usr/bin/env git remote set-url origin https://github.com/vaidehiramadugu/rails_deploy-project.git )
+ DEBUG [2e743688] 	/etc/profile.d/lang.sh: line 19: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory
+  INFO [2e743688] Finished in 0.939 seconds with exit status 0 (successful).
+  INFO [11df1a39] Running /usr/bin/env git remote update --prune as deploy@52.14.81.37
+ DEBUG [11df1a39] Command: cd /u01/apps/qwinix/rails_deploy/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-rails_deploy-production-admin.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [11df1a39] 	/etc/profile.d/lang.sh: line 19: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory
+ DEBUG [11df1a39] 	Fetching origin
+ DEBUG [11df1a39] 	remote: Enumerating objects: 5, done.[K
+ DEBUG [11df1a39] 	remote: Counting objects:  20% (1/5)[K
+ DEBUG [11df1a39] 	remote: Counting objects:  40% (2/5)[K
+ DEBUG [11df1a39] 	remote: Counting objects:  60% (3/5)[K
+ DEBUG [11df1a39] 	remote: Counting objects:  80% (4/5)[K
+ DEBUG [11df1a39] 	remote: Counting objects: 100% (5/5)[K
+ DEBUG [11df1a39] 	remote: Counting objects: 100% (5/5), done.[K
+ DEBUG [11df1a39] 	remote: Compressing objects:  50% (1/2)[K
+ DEBUG [11df1a39] 	remote: Compressing objects: 100% (2/2)[K
+ DEBUG [11df1a39] 	remote: Compressing objects: 100% (2/2), done.[K
+ DEBUG [11df1a39] 	remote: Total 5 (delta 3), reused 5 (delta 3), pack-reused 0[K
+ DEBUG [11df1a39] 	[K
+ DEBUG [11df1a39] 	Unpacking objects:  20% (1/5)
+ DEBUG [11df1a39] 	[K
+ DEBUG [11df1a39] 	Unpacking objects:  40% (2/5)
+ DEBUG [11df1a39] 	[K
+ DEBUG [11df1a39] 	Unpacking objects:  60% (3/5)
+ DEBUG [11df1a39] 	[K
+ DEBUG [11df1a39] 	Unpacking objects:  80% (4/5)
+ DEBUG [11df1a39] 	[K
+ DEBUG [11df1a39] 	Unpacking objects: 100% (5/5)
+ DEBUG [11df1a39] 	[K
+ DEBUG [11df1a39] 	Unpacking objects: 100% (5/5), done.
+ DEBUG [11df1a39] 	From https://github.com/vaidehiramadugu/rails_deploy-project
+   b8880db..8e71a6e  master     -> master
+  INFO [11df1a39] Finished in 1.218 seconds with exit status 0 (successful).
+ DEBUG [b16813cf] Running if test ! -d /u01/apps/qwinix/rails_deploy/repo; then echo "Directory does not exist '/u01/apps/qwinix/rails_deploy/repo'" 1>&2; false; fi as deploy@52.14.81.37
+ DEBUG [b16813cf] Command: if test ! -d /u01/apps/qwinix/rails_deploy/repo; then echo "Directory does not exist '/u01/apps/qwinix/rails_deploy/repo'" 1>&2; false; fi
+ DEBUG [b16813cf] 	/etc/profile.d/lang.sh: line 19: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory
+ DEBUG [b16813cf] Finished in 0.973 seconds with exit status 0 (successful).
+  INFO [7b784028] Running /usr/bin/env mkdir -p /u01/apps/qwinix/rails_deploy/releases/20200205051930 as deploy@52.14.81.37
+ DEBUG [7b784028] Command: cd /u01/apps/qwinix/rails_deploy/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-rails_deploy-production-admin.sh" ; /usr/bin/env mkdir -p /u01/apps/qwinix/rails_deploy/releases/20200205051930 )
+ DEBUG [7b784028] 	/etc/profile.d/lang.sh: line 19: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory
+  INFO [7b784028] Finished in 0.940 seconds with exit status 0 (successful).
+  INFO [73c62ff8] Running /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /u01/apps/qwinix/rails_deploy/releases/20200205051930 as deploy@52.14.81.37
+ DEBUG [73c62ff8] Command: cd /u01/apps/qwinix/rails_deploy/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-rails_deploy-production-admin.sh" ; /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /u01/apps/qwinix/rails_deploy/releases/20200205051930 )
+ DEBUG [73c62ff8] 	/etc/profile.d/lang.sh: line 19: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory
+  INFO [73c62ff8] Finished in 4.072 seconds with exit status 0 (successful).
+ DEBUG [58f9e4df] Running if test ! -d /u01/apps/qwinix/rails_deploy/repo; then echo "Directory does not exist '/u01/apps/qwinix/rails_deploy/repo'" 1>&2; false; fi as deploy@52.14.81.37
+ DEBUG [58f9e4df] Command: if test ! -d /u01/apps/qwinix/rails_deploy/repo; then echo "Directory does not exist '/u01/apps/qwinix/rails_deploy/repo'" 1>&2; false; fi
+ DEBUG [58f9e4df] 	/etc/profile.d/lang.sh: line 19: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory
+ DEBUG [58f9e4df] Finished in 0.863 seconds with exit status 0 (successful).
+ DEBUG [e136ad0f] Running /usr/bin/env git rev-list --max-count=1 master as deploy@52.14.81.37
+ DEBUG [e136ad0f] Command: cd /u01/apps/qwinix/rails_deploy/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-rails_deploy-production-admin.sh" ; /usr/bin/env git rev-list --max-count=1 master )
+ DEBUG [e136ad0f] 	/etc/profile.d/lang.sh: line 19: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory
+ DEBUG [e136ad0f] 	8e71a6eaabb99e34c1b2b8b8d70f3bfa98e792a4
+ DEBUG [e136ad0f] Finished in 0.825 seconds with exit status 0 (successful).
+ DEBUG [362cf707] Running if test ! -d /u01/apps/qwinix/rails_deploy/releases/20200205051930; then echo "Directory does not exist '/u01/apps/qwinix/rails_deploy/releases/20200205051930'" 1>&2; false; fi as deploy@52.14.81.37
+ DEBUG [362cf707] Command: if test ! -d /u01/apps/qwinix/rails_deploy/releases/20200205051930; then echo "Directory does not exist '/u01/apps/qwinix/rails_deploy/releases/20200205051930'" 1>&2; false; fi
+ DEBUG [362cf707] 	/etc/profile.d/lang.sh: line 19: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory
+ DEBUG [362cf707] Finished in 0.856 seconds with exit status 0 (successful).
+  INFO [3f259c9c] Running /usr/bin/env echo "/etc/profile.d/lang.sh: line 19: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory
+8e71a6eaabb99e34c1b2b8b8d70f3bfa98e792a4" > REVISION as deploy@52.14.81.37
+ DEBUG [3f259c9c] Command: cd /u01/apps/qwinix/rails_deploy/releases/20200205051930 && /usr/bin/env echo "/etc/profile.d/lang.sh: line 19: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory
+8e71a6eaabb99e34c1b2b8b8d70f3bfa98e792a4" > REVISION
+ DEBUG [3f259c9c] 	/etc/profile.d/lang.sh: line 19: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory
+  INFO [3f259c9c] Finished in 1.213 seconds with exit status 0 (successful).
+  INFO [b8f5552f] Running /usr/bin/env mkdir -p /u01/apps/qwinix/rails_deploy/releases/20200205051930/config as deploy@52.14.81.37
+ DEBUG [b8f5552f] Command: /usr/bin/env mkdir -p /u01/apps/qwinix/rails_deploy/releases/20200205051930/config
+ DEBUG [b8f5552f] 	/etc/profile.d/lang.sh: line 19: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory
+  INFO [b8f5552f] Finished in 0.939 seconds with exit status 0 (successful).
+ DEBUG [1d8e3368] Running [ -L /u01/apps/qwinix/rails_deploy/releases/20200205051930/config/database.yml ] as deploy@52.14.81.37
+ DEBUG [1d8e3368] Command: [ -L /u01/apps/qwinix/rails_deploy/releases/20200205051930/config/database.yml ]
+ DEBUG [1d8e3368] 	/etc/profile.d/lang.sh: line 19: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory
+ DEBUG [1d8e3368] Finished in 0.939 seconds with exit status 1 (failed).
+ DEBUG [5d7d9da1] Running [ -f /u01/apps/qwinix/rails_deploy/releases/20200205051930/config/database.yml ] as deploy@52.14.81.37
+ DEBUG [5d7d9da1] Command: [ -f /u01/apps/qwinix/rails_deploy/releases/20200205051930/config/database.yml ]
+ DEBUG [5d7d9da1] 	/etc/profile.d/lang.sh: line 19: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory
+ DEBUG [5d7d9da1] Finished in 0.939 seconds with exit status 0 (successful).
+  INFO [e8ea2814] Running /usr/bin/env rm /u01/apps/qwinix/rails_deploy/releases/20200205051930/config/database.yml as deploy@52.14.81.37
+ DEBUG [e8ea2814] Command: /usr/bin/env rm /u01/apps/qwinix/rails_deploy/releases/20200205051930/config/database.yml
+ DEBUG [e8ea2814] 	/etc/profile.d/lang.sh: line 19: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory
+  INFO [e8ea2814] Finished in 0.940 seconds with exit status 0 (successful).
+  INFO [e1bbe15b] Running /usr/bin/env ln -s /u01/apps/qwinix/rails_deploy/shared/config/database.yml /u01/apps/qwinix/rails_deploy/releases/20200205051930/config/database.yml as deploy@52.14.81.37
+ DEBUG [e1bbe15b] Command: /usr/bin/env ln -s /u01/apps/qwinix/rails_deploy/shared/config/database.yml /u01/apps/qwinix/rails_deploy/releases/20200205051930/config/database.yml
+ DEBUG [e1bbe15b] 	/etc/profile.d/lang.sh: line 19: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory
+  INFO [e1bbe15b] Finished in 0.939 seconds with exit status 0 (successful).
+ DEBUG [a6ea1fa1] Running [ -L /u01/apps/qwinix/rails_deploy/releases/20200205051930/config/application.yml ] as deploy@52.14.81.37
+ DEBUG [a6ea1fa1] Command: [ -L /u01/apps/qwinix/rails_deploy/releases/20200205051930/config/application.yml ]
+ DEBUG [a6ea1fa1] 	/etc/profile.d/lang.sh: line 19: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory
+ DEBUG [a6ea1fa1] Finished in 0.771 seconds with exit status 1 (failed).
+ DEBUG [d379c501] Running [ -f /u01/apps/qwinix/rails_deploy/releases/20200205051930/config/application.yml ] as deploy@52.14.81.37
+ DEBUG [d379c501] Command: [ -f /u01/apps/qwinix/rails_deploy/releases/20200205051930/config/application.yml ]
+ DEBUG [d379c501] 	/etc/profile.d/lang.sh: line 19: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory
+ DEBUG [d379c501] Finished in 0.794 seconds with exit status 1 (failed).
+  INFO [a5e7e20c] Running /usr/bin/env ln -s /u01/apps/qwinix/rails_deploy/shared/config/application.yml /u01/apps/qwinix/rails_deploy/releases/20200205051930/config/application.yml as deploy@52.14.81.37
+ DEBUG [a5e7e20c] Command: /usr/bin/env ln -s /u01/apps/qwinix/rails_deploy/shared/config/application.yml /u01/apps/qwinix/rails_deploy/releases/20200205051930/config/application.yml
+ DEBUG [a5e7e20c] 	/etc/profile.d/lang.sh: line 19: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory
+  INFO [a5e7e20c] Finished in 0.836 seconds with exit status 0 (successful).
+  INFO [e2c150fc] Running /usr/bin/env mkdir -p /u01/apps/qwinix/rails_deploy/releases/20200205051930 /u01/apps/qwinix/rails_deploy/releases/20200205051930/tmp /u01/apps/qwinix/rails_deploy/releases/20200205051930/vendor /u01/apps/qwinix/rails_deploy/releases/20200205051930/public as deploy@52.14.81.37
+ DEBUG [e2c150fc] Command: /usr/bin/env mkdir -p /u01/apps/qwinix/rails_deploy/releases/20200205051930 /u01/apps/qwinix/rails_deploy/releases/20200205051930/tmp /u01/apps/qwinix/rails_deploy/releases/20200205051930/vendor /u01/apps/qwinix/rails_deploy/releases/20200205051930/public
+ DEBUG [e2c150fc] 	/etc/profile.d/lang.sh: line 19: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory
+  INFO [e2c150fc] Finished in 0.936 seconds with exit status 0 (successful).
+ DEBUG [557430eb] Running [ -L /u01/apps/qwinix/rails_deploy/releases/20200205051930/bin ] as deploy@52.14.81.37
+ DEBUG [557430eb] Command: [ -L /u01/apps/qwinix/rails_deploy/releases/20200205051930/bin ]
+ DEBUG [557430eb] 	/etc/profile.d/lang.sh: line 19: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory
+ DEBUG [557430eb] Finished in 0.939 seconds with exit status 1 (failed).
+ DEBUG [06dd4233] Running [ -d /u01/apps/qwinix/rails_deploy/releases/20200205051930/bin ] as deploy@52.14.81.37
+ DEBUG [06dd4233] Command: [ -d /u01/apps/qwinix/rails_deploy/releases/20200205051930/bin ]
+ DEBUG [06dd4233] 	/etc/profile.d/lang.sh: line 19: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory
+ DEBUG [06dd4233] Finished in 0.796 seconds with exit status 0 (successful).
+  INFO [ffd73136] Running /usr/bin/env rm -rf /u01/apps/qwinix/rails_deploy/releases/20200205051930/bin as deploy@52.14.81.37
+ DEBUG [ffd73136] Command: /usr/bin/env rm -rf /u01/apps/qwinix/rails_deploy/releases/20200205051930/bin
+ DEBUG [ffd73136] 	/etc/profile.d/lang.sh: line 19: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory
+  INFO [ffd73136] Finished in 0.875 seconds with exit status 0 (successful).
+  INFO [6eca166a] Running /usr/bin/env ln -s /u01/apps/qwinix/rails_deploy/shared/bin /u01/apps/qwinix/rails_deploy/releases/20200205051930/bin as deploy@52.14.81.37
+ DEBUG [6eca166a] Command: /usr/bin/env ln -s /u01/apps/qwinix/rails_deploy/shared/bin /u01/apps/qwinix/rails_deploy/releases/20200205051930/bin
+ DEBUG [6eca166a] 	/etc/profile.d/lang.sh: line 19: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory
+  INFO [6eca166a] Finished in 0.876 seconds with exit status 0 (successful).
+ DEBUG [fff353f4] Running [ -L /u01/apps/qwinix/rails_deploy/releases/20200205051930/log ] as deploy@52.14.81.37
+ DEBUG [fff353f4] Command: [ -L /u01/apps/qwinix/rails_deploy/releases/20200205051930/log ]
+ DEBUG [fff353f4] 	/etc/profile.d/lang.sh: line 19: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory
+ DEBUG [fff353f4] Finished in 0.898 seconds with exit status 1 (failed).
+ DEBUG [5fcaf976] Running [ -d /u01/apps/qwinix/rails_deploy/releases/20200205051930/log ] as deploy@52.14.81.37
+ DEBUG [5fcaf976] Command: [ -d /u01/apps/qwinix/rails_deploy/releases/20200205051930/log ]
+ DEBUG [5fcaf976] 	/etc/profile.d/lang.sh: line 19: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory
+ DEBUG [5fcaf976] Finished in 0.940 seconds with exit status 0 (successful).
+  INFO [edc4b9c4] Running /usr/bin/env rm -rf /u01/apps/qwinix/rails_deploy/releases/20200205051930/log as deploy@52.14.81.37
+ DEBUG [edc4b9c4] Command: /usr/bin/env rm -rf /u01/apps/qwinix/rails_deploy/releases/20200205051930/log
+ DEBUG [edc4b9c4] 	/etc/profile.d/lang.sh: line 19: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory
+  INFO [edc4b9c4] Finished in 0.940 seconds with exit status 0 (successful).
+  INFO [c59fbe50] Running /usr/bin/env ln -s /u01/apps/qwinix/rails_deploy/shared/log /u01/apps/qwinix/rails_deploy/releases/20200205051930/log as deploy@52.14.81.37
+ DEBUG [c59fbe50] Command: /usr/bin/env ln -s /u01/apps/qwinix/rails_deploy/shared/log /u01/apps/qwinix/rails_deploy/releases/20200205051930/log
+ DEBUG [c59fbe50] 	/etc/profile.d/lang.sh: line 19: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory
+  INFO [c59fbe50] Finished in 0.939 seconds with exit status 0 (successful).
+ DEBUG [d56a77ee] Running [ -L /u01/apps/qwinix/rails_deploy/releases/20200205051930/tmp/pids ] as deploy@52.14.81.37
+ DEBUG [d56a77ee] Command: [ -L /u01/apps/qwinix/rails_deploy/releases/20200205051930/tmp/pids ]
+ DEBUG [d56a77ee] 	/etc/profile.d/lang.sh: line 19: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory
+ DEBUG [d56a77ee] Finished in 0.937 seconds with exit status 1 (failed).
+ DEBUG [f4ef952b] Running [ -d /u01/apps/qwinix/rails_deploy/releases/20200205051930/tmp/pids ] as deploy@52.14.81.37
+ DEBUG [f4ef952b] Command: [ -d /u01/apps/qwinix/rails_deploy/releases/20200205051930/tmp/pids ]
+ DEBUG [f4ef952b] 	/etc/profile.d/lang.sh: line 19: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory
+ DEBUG [f4ef952b] Finished in 0.799 seconds with exit status 0 (successful).
+  INFO [0379ff57] Running /usr/bin/env rm -rf /u01/apps/qwinix/rails_deploy/releases/20200205051930/tmp/pids as deploy@52.14.81.37
+ DEBUG [0379ff57] Command: /usr/bin/env rm -rf /u01/apps/qwinix/rails_deploy/releases/20200205051930/tmp/pids
+ DEBUG [0379ff57] 	/etc/profile.d/lang.sh: line 19: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory
+  INFO [0379ff57] Finished in 0.978 seconds with exit status 0 (successful).
+  INFO [42176a0e] Running /usr/bin/env ln -s /u01/apps/qwinix/rails_deploy/shared/tmp/pids /u01/apps/qwinix/rails_deploy/releases/20200205051930/tmp/pids as deploy@52.14.81.37
+ DEBUG [42176a0e] Command: /usr/bin/env ln -s /u01/apps/qwinix/rails_deploy/shared/tmp/pids /u01/apps/qwinix/rails_deploy/releases/20200205051930/tmp/pids
+ DEBUG [42176a0e] 	/etc/profile.d/lang.sh: line 19: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory
+  INFO [42176a0e] Finished in 0.940 seconds with exit status 0 (successful).
+ DEBUG [758d5f47] Running [ -L /u01/apps/qwinix/rails_deploy/releases/20200205051930/tmp/cache ] as deploy@52.14.81.37
+ DEBUG [758d5f47] Command: [ -L /u01/apps/qwinix/rails_deploy/releases/20200205051930/tmp/cache ]
+ DEBUG [758d5f47] 	/etc/profile.d/lang.sh: line 19: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory
+ DEBUG [758d5f47] Finished in 0.834 seconds with exit status 1 (failed).
+ DEBUG [07f20b73] Running [ -d /u01/apps/qwinix/rails_deploy/releases/20200205051930/tmp/cache ] as deploy@52.14.81.37
+ DEBUG [07f20b73] Command: [ -d /u01/apps/qwinix/rails_deploy/releases/20200205051930/tmp/cache ]
+ DEBUG [07f20b73] 	/etc/profile.d/lang.sh: line 19: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory
+ DEBUG [07f20b73] Finished in 0.939 seconds with exit status 0 (successful).
+  INFO [a3ac46bc] Running /usr/bin/env rm -rf /u01/apps/qwinix/rails_deploy/releases/20200205051930/tmp/cache as deploy@52.14.81.37
+ DEBUG [a3ac46bc] Command: /usr/bin/env rm -rf /u01/apps/qwinix/rails_deploy/releases/20200205051930/tmp/cache
+ DEBUG [a3ac46bc] 	/etc/profile.d/lang.sh: line 19: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory
+  INFO [a3ac46bc] Finished in 0.835 seconds with exit status 0 (successful).
+  INFO [ec3d2e93] Running /usr/bin/env ln -s /u01/apps/qwinix/rails_deploy/shared/tmp/cache /u01/apps/qwinix/rails_deploy/releases/20200205051930/tmp/cache as deploy@52.14.81.37
+ DEBUG [ec3d2e93] Command: /usr/bin/env ln -s /u01/apps/qwinix/rails_deploy/shared/tmp/cache /u01/apps/qwinix/rails_deploy/releases/20200205051930/tmp/cache
+ DEBUG [ec3d2e93] 	/etc/profile.d/lang.sh: line 19: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory
+  INFO [ec3d2e93] Finished in 0.940 seconds with exit status 0 (successful).
+ DEBUG [2e020c32] Running [ -L /u01/apps/qwinix/rails_deploy/releases/20200205051930/tmp/sockets ] as deploy@52.14.81.37
+ DEBUG [2e020c32] Command: [ -L /u01/apps/qwinix/rails_deploy/releases/20200205051930/tmp/sockets ]
+ DEBUG [2e020c32] 	/etc/profile.d/lang.sh: line 19: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory
+ DEBUG [2e020c32] Finished in 0.939 seconds with exit status 1 (failed).
+ DEBUG [1badac3b] Running [ -d /u01/apps/qwinix/rails_deploy/releases/20200205051930/tmp/sockets ] as deploy@52.14.81.37
+ DEBUG [1badac3b] Command: [ -d /u01/apps/qwinix/rails_deploy/releases/20200205051930/tmp/sockets ]
+ DEBUG [1badac3b] 	/etc/profile.d/lang.sh: line 19: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory
+ DEBUG [1badac3b] Finished in 0.836 seconds with exit status 1 (failed).
+  INFO [20e18faa] Running /usr/bin/env ln -s /u01/apps/qwinix/rails_deploy/shared/tmp/sockets /u01/apps/qwinix/rails_deploy/releases/20200205051930/tmp/sockets as deploy@52.14.81.37
+ DEBUG [20e18faa] Command: /usr/bin/env ln -s /u01/apps/qwinix/rails_deploy/shared/tmp/sockets /u01/apps/qwinix/rails_deploy/releases/20200205051930/tmp/sockets
+ DEBUG [20e18faa] 	/etc/profile.d/lang.sh: line 19: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory
+  INFO [20e18faa] Finished in 1.774 seconds with exit status 0 (successful).
+ DEBUG [a280dbc9] Running [ -L /u01/apps/qwinix/rails_deploy/releases/20200205051930/vendor/bundle ] as deploy@52.14.81.37
+ DEBUG [a280dbc9] Command: [ -L /u01/apps/qwinix/rails_deploy/releases/20200205051930/vendor/bundle ]
+ DEBUG [a280dbc9] 	/etc/profile.d/lang.sh: line 19: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory
+ DEBUG [a280dbc9] Finished in 0.796 seconds with exit status 1 (failed).
+ DEBUG [376ed9bf] Running [ -d /u01/apps/qwinix/rails_deploy/releases/20200205051930/vendor/bundle ] as deploy@52.14.81.37
+ DEBUG [376ed9bf] Command: [ -d /u01/apps/qwinix/rails_deploy/releases/20200205051930/vendor/bundle ]
+ DEBUG [376ed9bf] 	/etc/profile.d/lang.sh: line 19: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory
+ DEBUG [376ed9bf] Finished in 0.913 seconds with exit status 1 (failed).
+  INFO [92b02923] Running /usr/bin/env ln -s /u01/apps/qwinix/rails_deploy/shared/vendor/bundle /u01/apps/qwinix/rails_deploy/releases/20200205051930/vendor/bundle as deploy@52.14.81.37
+ DEBUG [92b02923] Command: /usr/bin/env ln -s /u01/apps/qwinix/rails_deploy/shared/vendor/bundle /u01/apps/qwinix/rails_deploy/releases/20200205051930/vendor/bundle
+ DEBUG [92b02923] 	/etc/profile.d/lang.sh: line 19: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory
+  INFO [92b02923] Finished in 0.901 seconds with exit status 0 (successful).
+ DEBUG [26590988] Running [ -L /u01/apps/qwinix/rails_deploy/releases/20200205051930/public/system ] as deploy@52.14.81.37
+ DEBUG [26590988] Command: [ -L /u01/apps/qwinix/rails_deploy/releases/20200205051930/public/system ]
+ DEBUG [26590988] 	/etc/profile.d/lang.sh: line 19: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory
+ DEBUG [26590988] Finished in 1.879 seconds with exit status 1 (failed).
+ DEBUG [ca402a97] Running [ -d /u01/apps/qwinix/rails_deploy/releases/20200205051930/public/system ] as deploy@52.14.81.37
+ DEBUG [ca402a97] Command: [ -d /u01/apps/qwinix/rails_deploy/releases/20200205051930/public/system ]
+ DEBUG [ca402a97] 	/etc/profile.d/lang.sh: line 19: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory
+ DEBUG [ca402a97] Finished in 0.876 seconds with exit status 1 (failed).
+  INFO [c50d2513] Running /usr/bin/env ln -s /u01/apps/qwinix/rails_deploy/shared/public/system /u01/apps/qwinix/rails_deploy/releases/20200205051930/public/system as deploy@52.14.81.37
+ DEBUG [c50d2513] Command: /usr/bin/env ln -s /u01/apps/qwinix/rails_deploy/shared/public/system /u01/apps/qwinix/rails_deploy/releases/20200205051930/public/system
+ DEBUG [c50d2513] 	/etc/profile.d/lang.sh: line 19: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory
+  INFO [c50d2513] Finished in 1.004 seconds with exit status 0 (successful).
+ DEBUG [2b3ad199] Running [ -L /u01/apps/qwinix/rails_deploy/releases/20200205051930/public/uploads ] as deploy@52.14.81.37
+ DEBUG [2b3ad199] Command: [ -L /u01/apps/qwinix/rails_deploy/releases/20200205051930/public/uploads ]
+ DEBUG [2b3ad199] 	/etc/profile.d/lang.sh: line 19: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory
+ DEBUG [2b3ad199] Finished in 0.939 seconds with exit status 1 (failed).
+ DEBUG [c027c64e] Running [ -d /u01/apps/qwinix/rails_deploy/releases/20200205051930/public/uploads ] as deploy@52.14.81.37
+ DEBUG [c027c64e] Command: [ -d /u01/apps/qwinix/rails_deploy/releases/20200205051930/public/uploads ]
+ DEBUG [c027c64e] 	/etc/profile.d/lang.sh: line 19: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory
+ DEBUG [c027c64e] Finished in 0.835 seconds with exit status 1 (failed).
+  INFO [1ee53333] Running /usr/bin/env ln -s /u01/apps/qwinix/rails_deploy/shared/public/uploads /u01/apps/qwinix/rails_deploy/releases/20200205051930/public/uploads as deploy@52.14.81.37
+ DEBUG [1ee53333] Command: /usr/bin/env ln -s /u01/apps/qwinix/rails_deploy/shared/public/uploads /u01/apps/qwinix/rails_deploy/releases/20200205051930/public/uploads
+ DEBUG [1ee53333] 	/etc/profile.d/lang.sh: line 19: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory
+  INFO [1ee53333] Finished in 0.940 seconds with exit status 0 (successful).
+  INFO [6636a53d] Running /usr/bin/env ln -s /u01/apps/qwinix/rails_deploy/releases/20200205051930 /u01/apps/qwinix/rails_deploy/releases/current as deploy@52.14.81.37
+ DEBUG [6636a53d] Command: /usr/bin/env ln -s /u01/apps/qwinix/rails_deploy/releases/20200205051930 /u01/apps/qwinix/rails_deploy/releases/current
+ DEBUG [6636a53d] 	/etc/profile.d/lang.sh: line 19: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory
+  INFO [6636a53d] Finished in 1.711 seconds with exit status 0 (successful).
+  INFO [3306dbf5] Running /usr/bin/env mv /u01/apps/qwinix/rails_deploy/releases/current /u01/apps/qwinix/rails_deploy as deploy@52.14.81.37
+ DEBUG [3306dbf5] Command: /usr/bin/env mv /u01/apps/qwinix/rails_deploy/releases/current /u01/apps/qwinix/rails_deploy
+ DEBUG [3306dbf5] 	/etc/profile.d/lang.sh: line 19: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory
+  INFO [3306dbf5] Finished in 2.151 seconds with exit status 0 (successful).
+ DEBUG [a8b9b8ec] Running /usr/bin/env ls -x /u01/apps/qwinix/rails_deploy/releases as deploy@52.14.81.37
+ DEBUG [a8b9b8ec] Command: /usr/bin/env ls -x /u01/apps/qwinix/rails_deploy/releases
+ DEBUG [a8b9b8ec] 	/etc/profile.d/lang.sh: line 19: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory
+ DEBUG [a8b9b8ec] 	20200205043645	20200205044143	20200205045915	20200205050333	20200205050752
+ DEBUG [a8b9b8ec] 	20200205051930
+ DEBUG [a8b9b8ec] Finished in 1.017 seconds with exit status 0 (successful).
+  WARN Skipping cleanup of invalid releases on 52.14.81.37; unexpected foldername found (should be timestamp)
+  INFO Keeping 5 of 6 deployed releases on 52.14.81.37
+ DEBUG [22e5267c] Running [ -d /u01/apps/qwinix/rails_deploy/current ] as deploy@52.14.81.37
+ DEBUG [22e5267c] Command: [ -d /u01/apps/qwinix/rails_deploy/current ]
+ DEBUG [22e5267c] 	/etc/profile.d/lang.sh: line 19: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory
+ DEBUG [22e5267c] Finished in 2.218 seconds with exit status 0 (successful).
+ DEBUG [af880f35] Running /usr/bin/env readlink /u01/apps/qwinix/rails_deploy/current as deploy@52.14.81.37
+ DEBUG [af880f35] Command: /usr/bin/env readlink /u01/apps/qwinix/rails_deploy/current
+ DEBUG [af880f35] 	/etc/profile.d/lang.sh: line 19: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory
+ DEBUG [af880f35] 	/u01/apps/qwinix/rails_deploy/releases/20200205051930
+ DEBUG [af880f35] Finished in 1.044 seconds with exit status 0 (successful).
+  INFO [df63a2f2] Running /usr/bin/env rm -rf /u01/apps/qwinix/rails_deploy/releases/20200205043645 as deploy@52.14.81.37
+ DEBUG [df63a2f2] Command: /usr/bin/env rm -rf /u01/apps/qwinix/rails_deploy/releases/20200205043645
+ DEBUG [df63a2f2] 	/etc/profile.d/lang.sh: line 19: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory
+  INFO [df63a2f2] Finished in 1.557 seconds with exit status 0 (successful).
+ DEBUG [d919d468] Running if test ! -d /u01/apps/qwinix/rails_deploy/releases; then echo "Directory does not exist '/u01/apps/qwinix/rails_deploy/releases'" 1>&2; false; fi as deploy@52.14.81.37
+ DEBUG [d919d468] Command: if test ! -d /u01/apps/qwinix/rails_deploy/releases; then echo "Directory does not exist '/u01/apps/qwinix/rails_deploy/releases'" 1>&2; false; fi
+ DEBUG [d919d468] 	/etc/profile.d/lang.sh: line 19: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory
+ DEBUG [d919d468] Finished in 0.779 seconds with exit status 0 (successful).
+  INFO [6fc585a5] Running /usr/bin/env echo "Branch master (at /etc/profile.d/lang.sh: line 19: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory
+8e71a6eaabb99e34c1b2b8b8d70f3bfa98e792a4) deployed as release 20200205051930 by admin" >> /u01/apps/qwinix/rails_deploy/revisions.log as deploy@52.14.81.37
+ DEBUG [6fc585a5] Command: cd /u01/apps/qwinix/rails_deploy/releases && /usr/bin/env echo "Branch master (at /etc/profile.d/lang.sh: line 19: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory
+8e71a6eaabb99e34c1b2b8b8d70f3bfa98e792a4) deployed as release 20200205051930 by admin" >> /u01/apps/qwinix/rails_deploy/revisions.log
+ DEBUG [6fc585a5] 	/etc/profile.d/lang.sh: line 19: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory
+  INFO [6fc585a5] Finished in 0.898 seconds with exit status 0 (successful).
