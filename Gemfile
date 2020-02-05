@@ -27,6 +27,8 @@ gem 'bcrypt_pbkdf', '>= 1.0', '< 2.0'
 # gem 'redis', '~> 4.0'
 # Use ActiveModel has_secure_password
  gem 'bcrypt', '~> 3.1.7'
+gem 'execjs'
+ gem 'therubyracer'
 
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
