@@ -5401,3 +5401,629 @@ From https://github.com/vaidehiramadugu/rails_deploy-project
 9c697369bf2f626df5900e59c6059671bada2e00) deployed as release 20200205052315 by admin" >> /u01/apps/qwinix/rails_deploy/revisions.log
  DEBUG [967dc27c] 	/etc/profile.d/lang.sh: line 19: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory
   INFO [967dc27c] Finished in 0.884 seconds with exit status 0 (successful).
+  INFO ---------------------------------------------------------------------------
+  INFO START 2020-02-05 11:40:30 +0530 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [abd4555d] Running /usr/bin/env mkdir -p /tmp as deploy@52.14.81.37
+ DEBUG [abd4555d] Command: /usr/bin/env mkdir -p /tmp
+ DEBUG [abd4555d] 	/etc/profile.d/lang.sh: line 19: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory
+  INFO [abd4555d] Finished in 5.632 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-rails_deploy-production-admin.sh 0.0%
+  INFO Uploading /tmp/git-ssh-rails_deploy-production-admin.sh 100.0%
+  INFO [32b35716] Running /usr/bin/env chmod 700 /tmp/git-ssh-rails_deploy-production-admin.sh as deploy@52.14.81.37
+ DEBUG [32b35716] Command: /usr/bin/env chmod 700 /tmp/git-ssh-rails_deploy-production-admin.sh
+ DEBUG [32b35716] 	/etc/profile.d/lang.sh: line 19: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory
+  INFO [32b35716] Finished in 0.903 seconds with exit status 0 (successful).
+  INFO [383dd68b] Running /usr/bin/env git ls-remote https://github.com/vaidehiramadugu/rails_deploy-project.git HEAD as deploy@52.14.81.37
+ DEBUG [383dd68b] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-rails_deploy-production-admin.sh" ; /usr/bin/env git ls-remote https://github.com/vaidehiramadugu/rails_deploy-project.git HEAD )
+ DEBUG [383dd68b] 	/etc/profile.d/lang.sh: line 19: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory
+ DEBUG [383dd68b] 	f6dd3aca6ed2bd4110fa18e6b2412a1b9164494a	HEAD
+  INFO [383dd68b] Finished in 0.994 seconds with exit status 0 (successful).
+  INFO [aa71d787] Running /usr/bin/env mkdir -p /u01/apps/qwinix/rails_deploy/shared /u01/apps/qwinix/rails_deploy/releases as deploy@52.14.81.37
+ DEBUG [aa71d787] Command: /usr/bin/env mkdir -p /u01/apps/qwinix/rails_deploy/shared /u01/apps/qwinix/rails_deploy/releases
+ DEBUG [aa71d787] 	/etc/profile.d/lang.sh: line 19: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory
+  INFO [aa71d787] Finished in 0.803 seconds with exit status 0 (successful).
+  INFO [5998a4fa] Running /usr/bin/env mkdir -p /u01/apps/qwinix/rails_deploy/shared/bin /u01/apps/qwinix/rails_deploy/shared/log /u01/apps/qwinix/rails_deploy/shared/tmp/pids /u01/apps/qwinix/rails_deploy/shared/tmp/cache /u01/apps/qwinix/rails_deploy/shared/tmp/sockets /u01/apps/qwinix/rails_deploy/shared/vendor/bundle /u01/apps/qwinix/rails_deploy/shared/public/system /u01/apps/qwinix/rails_deploy/shared/public/uploads as deploy@52.14.81.37
+ DEBUG [5998a4fa] Command: /usr/bin/env mkdir -p /u01/apps/qwinix/rails_deploy/shared/bin /u01/apps/qwinix/rails_deploy/shared/log /u01/apps/qwinix/rails_deploy/shared/tmp/pids /u01/apps/qwinix/rails_deploy/shared/tmp/cache /u01/apps/qwinix/rails_deploy/shared/tmp/sockets /u01/apps/qwinix/rails_deploy/shared/vendor/bundle /u01/apps/qwinix/rails_deploy/shared/public/system /u01/apps/qwinix/rails_deploy/shared/public/uploads
+ DEBUG [5998a4fa] 	/etc/profile.d/lang.sh: line 19: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory
+  INFO [5998a4fa] Finished in 0.835 seconds with exit status 0 (successful).
+  INFO [2c74e954] Running /usr/bin/env mkdir -p /u01/apps/qwinix/rails_deploy/shared/config as deploy@52.14.81.37
+ DEBUG [2c74e954] Command: /usr/bin/env mkdir -p /u01/apps/qwinix/rails_deploy/shared/config
+ DEBUG [2c74e954] 	/etc/profile.d/lang.sh: line 19: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory
+  INFO [2c74e954] Finished in 0.802 seconds with exit status 0 (successful).
+ DEBUG [5c949c01] Running [ -f /u01/apps/qwinix/rails_deploy/shared/config/database.yml ] as deploy@52.14.81.37
+ DEBUG [5c949c01] Command: [ -f /u01/apps/qwinix/rails_deploy/shared/config/database.yml ]
+ DEBUG [5c949c01] 	/etc/profile.d/lang.sh: line 19: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory
+ DEBUG [5c949c01] Finished in 0.827 seconds with exit status 0 (successful).
+ DEBUG [7436f249] Running [ -f /u01/apps/qwinix/rails_deploy/shared/config/application.yml ] as deploy@52.14.81.37
+ DEBUG [7436f249] Command: [ -f /u01/apps/qwinix/rails_deploy/shared/config/application.yml ]
+ DEBUG [7436f249] 	/etc/profile.d/lang.sh: line 19: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory
+ DEBUG [7436f249] Finished in 0.804 seconds with exit status 0 (successful).
+ DEBUG [acd39e18] Running [ -f /u01/apps/qwinix/rails_deploy/current/REVISION ] as deploy@52.14.81.37
+ DEBUG [acd39e18] Command: [ -f /u01/apps/qwinix/rails_deploy/current/REVISION ]
+ DEBUG [acd39e18] 	/etc/profile.d/lang.sh: line 19: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory
+ DEBUG [acd39e18] Finished in 1.019 seconds with exit status 0 (successful).
+ DEBUG [6a8bb959] Running /usr/bin/env cat /u01/apps/qwinix/rails_deploy/current/REVISION 2>/dev/null as deploy@52.14.81.37
+ DEBUG [6a8bb959] Command: /usr/bin/env cat /u01/apps/qwinix/rails_deploy/current/REVISION 2>/dev/null
+ DEBUG [6a8bb959] 	/etc/profile.d/lang.sh: line 19: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory
+ DEBUG [6a8bb959] 	/etc/profile.d/lang.sh: line 19: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory
+9c697369bf2f626df5900e59c6059671bada2e00
+ DEBUG [6a8bb959] Finished in 0.900 seconds with exit status 0 (successful).
+ DEBUG [6b584c4f] Running [ -f /u01/apps/qwinix/rails_deploy/repo/HEAD ] as deploy@52.14.81.37
+ DEBUG [6b584c4f] Command: [ -f /u01/apps/qwinix/rails_deploy/repo/HEAD ]
+ DEBUG [6b584c4f] 	/etc/profile.d/lang.sh: line 19: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory
+ DEBUG [6b584c4f] Finished in 0.799 seconds with exit status 0 (successful).
+  INFO The repository mirror is at /u01/apps/qwinix/rails_deploy/repo
+ DEBUG [eec55b9c] Running if test ! -d /u01/apps/qwinix/rails_deploy/repo; then echo "Directory does not exist '/u01/apps/qwinix/rails_deploy/repo'" 1>&2; false; fi as deploy@52.14.81.37
+ DEBUG [eec55b9c] Command: if test ! -d /u01/apps/qwinix/rails_deploy/repo; then echo "Directory does not exist '/u01/apps/qwinix/rails_deploy/repo'" 1>&2; false; fi
+ DEBUG [eec55b9c] 	/etc/profile.d/lang.sh: line 19: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory
+ DEBUG [eec55b9c] Finished in 1.009 seconds with exit status 0 (successful).
+  INFO [9cb924d1] Running /usr/bin/env git remote set-url origin https://github.com/vaidehiramadugu/rails_deploy-project.git as deploy@52.14.81.37
+ DEBUG [9cb924d1] Command: cd /u01/apps/qwinix/rails_deploy/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-rails_deploy-production-admin.sh" ; /usr/bin/env git remote set-url origin https://github.com/vaidehiramadugu/rails_deploy-project.git )
+ DEBUG [9cb924d1] 	/etc/profile.d/lang.sh: line 19: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory
+  INFO [9cb924d1] Finished in 0.943 seconds with exit status 0 (successful).
+  INFO [d0081224] Running /usr/bin/env git remote update --prune as deploy@52.14.81.37
+ DEBUG [d0081224] Command: cd /u01/apps/qwinix/rails_deploy/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-rails_deploy-production-admin.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [d0081224] 	/etc/profile.d/lang.sh: line 19: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory
+ DEBUG [d0081224] 	Fetching origin
+ DEBUG [d0081224] 	remote: Enumerating objects: 261, done.[K
+ DEBUG [d0081224] 	remote: Counting objects:   0% (1/261)[K
+ DEBUG [d0081224] 	remote: Counting objects:   1% (3/261)[K
+ DEBUG [d0081224] 	remote: Counting objects:   2% (6/261)[K
+ DEBUG [d0081224] 	remote: Counting objects:   3% (8/261)[K
+ DEBUG [d0081224] 	remote: Counting objects:   4% (11/261)[K
+ DEBUG [d0081224] 	remote: Counting objects:   5% (14/261)[K
+ DEBUG [d0081224] 	remote: Counting objects:   6% (16/261)[K
+ DEBUG [d0081224] 	remote: Counting objects:   7% (19/261)[K
+ DEBUG [d0081224] 	remote: Counting objects:   8% (21/261)[K
+ DEBUG [d0081224] 	remote: Counting objects:   9% (24/261)[K
+ DEBUG [d0081224] 	remote: Counting objects:  10% (27/261)[K
+ DEBUG [d0081224] 	remote: Counting objects:  11% (29/261)[K
+ DEBUG [d0081224] 	remote: Counting objects:  12% (32/261)[K
+ DEBUG [d0081224] 	remote: Counting objects:  13% (34/261)[K
+ DEBUG [d0081224] 	remote: Counting objects:  14% (37/261)[K
+ DEBUG [d0081224] 	remote: Counting objects:  15% (40/261)[K
+ DEBUG [d0081224] 	remote: Counting objects:  16% (42/261)[K
+ DEBUG [d0081224] 	remote: Counting objects:  17% (45/261)[K
+ DEBUG [d0081224] 	remote: Counting objects:  18% (47/261)[K
+ DEBUG [d0081224] 	remote: Counting objects:  19% (50/261)[K
+ DEBUG [d0081224] 	remote: Counting objects:  20% (53/261)[K
+ DEBUG [d0081224] 	remote: Counting objects:  21% (55/261)[K
+ DEBUG [d0081224] 	remote: Counting objects:  22% (58/261)[K
+ DEBUG [d0081224] 	remote: Counting objects:  23% (61/261)[K
+ DEBUG [d0081224] 	remote: Counting objects:  24% (63/261)[K
+ DEBUG [d0081224] 	remote: Counting objects:  25% (66/261)[K
+ DEBUG [d0081224] 	remote: Counting objects:  26% (68/261)[K
+ DEBUG [d0081224] 	remote: Counting objects:  27% (71/261)[K
+ DEBUG [d0081224] 	remote: Counting objects:  28% (74/261)[K
+ DEBUG [d0081224] 	remote: Counting objects:  29% (76/261)[K
+ DEBUG [d0081224] 	remote: Counting objects:  30% (79/261)[K
+ DEBUG [d0081224] 	remote: Counting objects:  31% (81/261)[K
+ DEBUG [d0081224] 	remote: Counting objects:  32% (84/261)[K
+ DEBUG [d0081224] 	remote: Counting objects:  33% (87/261)[K
+ DEBUG [d0081224] 	remote: Counting objects:  34% (89/261)[K
+ DEBUG [d0081224] 	remote: Counting objects:  35% (92/261)[K
+ DEBUG [d0081224] 	remote: Counting objects:  36% (94/261)[K
+ DEBUG [d0081224] 	remote: Counting objects:  37% (97/261)[K
+ DEBUG [d0081224] 	remote: Counting objects:  38% (100/261)
+ DEBUG [d0081224] 	remote: Counting objects:  39% (102/261)[K
+ DEBUG [d0081224] 	remote: Counting objects:  40% (105/261)[K
+ DEBUG [d0081224] 	remote: Counting objects:  41% (108/261)[K
+ DEBUG [d0081224] 	remote: Counting objects:  42% (110/261)[K
+ DEBUG [d0081224] 	remote: Counting objects:  43% (113/261)[K
+ DEBUG [d0081224] 	remote: Counting objects:  44% (115/261)[K
+ DEBUG [d0081224] 	remote: Counting objects:  45% (118/261)[K
+ DEBUG [d0081224] 	remote: Counting objects:  46% (121/261)[K
+ DEBUG [d0081224] 	remote: Counting objects:  47% (123/261)[K
+ DEBUG [d0081224] 	remote: Counting objects:  48% (126/261)[K
+ DEBUG [d0081224] 	remote: Counting objects:  49% (128/261)[K
+ DEBUG [d0081224] 	remote: Counting objects:  50% (131/261)[K
+ DEBUG [d0081224] 	remote: Counting objects:  51% (134/261)[K
+ DEBUG [d0081224] 	remote: Counting objects:  52% (136/261)[K
+ DEBUG [d0081224] 	remote: Counting objects:  53% (139/261)[K
+ DEBUG [d0081224] 	remote: Counting objects:  54% (141/261)[K
+ DEBUG [d0081224] 	remote: Counting objects:  55% (144/261)[K
+ DEBUG [d0081224] 	remote: Counting objects:  56% (147/261)[K
+ DEBUG [d0081224] 	remote: Counting objects:  57% (149/261)[K
+ DEBUG [d0081224] 	remote: Counting objects:  58% (152/261)[K
+ DEBUG [d0081224] 	remote: Counting objects:  59% (154/261)[K
+ DEBUG [d0081224] 	remote: Counting objects:  60% (157/261)[K
+ DEBUG [d0081224] 	remote: Counting objects:  61% (160/261)[K
+ DEBUG [d0081224] 	remote: Counting objects:  62% (162/261)[K
+ DEBUG [d0081224] 	remote: Counting objects:  63% (165/261)[K
+ DEBUG [d0081224] 	remote: Counting objects:  64% (168/261)[K
+ DEBUG [d0081224] 	remote: Counting objects:  65% (170/261)[K
+ DEBUG [d0081224] 	remote: Counting objects:  66% (173/261)[K
+ DEBUG [d0081224] 	remote: Counting objects:  67% (175/261)[K
+ DEBUG [d0081224] 	remote: Counting objects:  68% (178/261)[K
+ DEBUG [d0081224] 	remote: Counting objects:  69% (181/261)[K
+ DEBUG [d0081224] 	remote: Counting objects:  70% (183/261)[K
+ DEBUG [d0081224] 	remote: Counting objects:  71% (186/261)[K
+ DEBUG [d0081224] 	remote: Counting objects:  72% (188/261)[K
+ DEBUG [d0081224] 	remote: Counting objects:  73% (191/261)[K
+ DEBUG [d0081224] 	remote: Counting objects:  74% (194/261)[K
+ DEBUG [d0081224] 	remote: Counting objects:  75% (196/261)[K
+ DEBUG [d0081224] 	remote: Counting objects:  76% (199/261)[K
+ DEBUG [d0081224] 	remote: Counting objects:  77% (201/261)[K
+ DEBUG [d0081224] 	remote: Counting objects:  78% (204/261)[K
+ DEBUG [d0081224] 	remote: Counting objects:  79% (207/261)[K
+ DEBUG [d0081224] 	remote: Counting objects:  80% (209/261)[K
+ DEBUG [d0081224] 	remote: Counting objects:  81% (212/261)[K
+ DEBUG [d0081224] 	remote: Counting objects:  82% (215/261)[K
+ DEBUG [d0081224] 	remote: Counting objects:  83% (217/261)[K
+ DEBUG [d0081224] 	remote: Counting objects:  84% (220/261)[K
+ DEBUG [d0081224] 	remote: Counting objects:  85% (222/261)[K
+ DEBUG [d0081224] 	remote: Counting objects:  86% (225/261)[K
+ DEBUG [d0081224] 	remote: Counting objects:  87% (228/261)[K
+ DEBUG [d0081224] 	remote: Counting objects:  88% (230/261)[K
+ DEBUG [d0081224] 	remote: Counting objects:  89% (233/261)[K
+ DEBUG [d0081224] 	remote: Counting objects:  90% (235/261)[K
+ DEBUG [d0081224] 	remote: Counting objects:  91% (238/261)[K
+ DEBUG [d0081224] 	remote: Counting objects:  92% (241/261)[K
+ DEBUG [d0081224] 	remote: Counting objects:  93% (243/261)[K
+ DEBUG [d0081224] 	remote: Counting objects:  94% (246/261)[K
+ DEBUG [d0081224] 	remote: Counting objects:  95% (248/261)[K
+ DEBUG [d0081224] 	remote: Counting objects:  96% (251/261)[K
+ DEBUG [d0081224] 	remote: Counting objects:  97% (254/261)[K
+ DEBUG [d0081224] 	remote: Counting objects:  98% (256/261)[K
+ DEBUG [d0081224] 	remote: Counting objects:  99% (259/261)[K
+ DEBUG [d0081224] 	remote: Counting objects: 100% (261/261)[K
+ DEBUG [d0081224] 	remote: Counting objects: 100% (261/261), done.[K
+ DEBUG [d0081224] 	remote: Compressing objects:   0% (1/190)[K
+ DEBUG [d0081224] 	remote: Compressing objects:   1% (2/190)[K
+ DEBUG [d0081224] 	remote: Compressing objects:   2% (4/190)[K
+ DEBUG [d0081224] 	remote: Compressing objects:   3% (6/190)[K
+ DEBUG [d0081224] 	remote: Compressing objects:   4% (8/190)[K
+ DEBUG [d0081224] 	remote: Compressing objects:   5% (10/190)[K
+ DEBUG [d0081224] 	remote: Compressing objects:   6% (12/190)[K
+ DEBUG [d0081224] 	remote: Compressing objects:   7% (14/190)[K
+ DEBUG [d0081224] 	remote: Compressing objects:   8% (16/190)[K
+ DEBUG [d0081224] 	remote: Compressing objects:   9% (18/190)[K
+ DEBUG [d0081224] 	remote: Compressing objects:  10% (19/190)[K
+ DEBUG [d0081224] 	remote: Compressing objects:  11% (21/190)[K
+ DEBUG [d0081224] 	remote: Compressing objects:  12% (23/190)[K
+ DEBUG [d0081224] 	remote: Compressing objects:  13% (25/190)[K
+ DEBUG [d0081224] 	remote: Compressing objects:  14% (27/190)[K
+ DEBUG [d0081224] 	remote: Compressing objects:  15% (29/190)[K
+ DEBUG [d0081224] 	remote: Compressing objects:  16% (31/190)[K
+ DEBUG [d0081224] 	remote: Compressing objects:  17% (33/190)[K
+ DEBUG [d0081224] 	remote: Compressing objects:  18% (35/190)[K
+ DEBUG [d0081224] 	remote: Compressing objects:  19% (37/190)[K
+ DEBUG [d0081224] 	remote: Compressing objects:  20% (38/190)[K
+ DEBUG [d0081224] 	remote: Compressing objects:  21% (40/190)[K
+ DEBUG [d0081224] 	remote: Compressing objects:  22% (42/190)
+ DEBUG [d0081224] 	remote: Compressing objects:  23% (44/190)[K
+ DEBUG [d0081224] 	remote: Compressing objects:  24% (46/190)[K
+ DEBUG [d0081224] 	remote: Compressing objects:  25% (48/190)[K
+ DEBUG [d0081224] 	remote: Compressing objects:  26% (50/190)[K
+ DEBUG [d0081224] 	remote: Compressing objects:  27% (52/190)[K
+ DEBUG [d0081224] 	remote: Compressing objects:  28% (54/190)[K
+ DEBUG [d0081224] 	remote: Compressing objects:  29% (56/190)[K
+ DEBUG [d0081224] 	remote: Compressing objects:  30% (57/190)[K
+ DEBUG [d0081224] 	remote: Compressing objects:  31% (59/190)[K
+ DEBUG [d0081224] 	remote: Compressing objects:  32% (61/190)[K
+ DEBUG [d0081224] 	remote: Compressing objects:  33% (63/190)[K
+ DEBUG [d0081224] 	remote: Compressing objects:  34% (65/190)[K
+ DEBUG [d0081224] 	remote: Compressing objects:  35% (67/190)[K
+ DEBUG [d0081224] 	remote: Compressing objects:  36% (69/190)[K
+ DEBUG [d0081224] 	remote: Compressing objects:  37% (71/190)[K
+ DEBUG [d0081224] 	remote: Compressing objects:  38% (73/190)[K
+ DEBUG [d0081224] 	remote: Compressing objects:  39% (75/190)[K
+ DEBUG [d0081224] 	remote: Compressing objects:  40% (76/190)[K
+ DEBUG [d0081224] 	remote: Compressing objects:  41% (78/190)[K
+ DEBUG [d0081224] 	remote: Compressing objects:  42% (80/190)[K
+ DEBUG [d0081224] 	remote: Compressing objects:  43% (82/190)[K
+ DEBUG [d0081224] 	remote: Compressing objects:  44% (84/190)[K
+ DEBUG [d0081224] 	remote: Compressing objects:  45% (86/190)[K
+ DEBUG [d0081224] 	remote: Compressing objects:  46% (88/190)[K
+ DEBUG [d0081224] 	remote: Compressing objects:  47% (90/190)[K
+ DEBUG [d0081224] 	remote: Compressing objects:  48% (92/190)[K
+ DEBUG [d0081224] 	remote: Compressing objects:  49% (94/190)[K
+ DEBUG [d0081224] 	remote: Compressing objects:  50% (95/190)[K
+ DEBUG [d0081224] 	remote: Compressing objects:  51% (97/190)[K
+ DEBUG [d0081224] 	remote: Compressing objects:  52% (99/190)[K
+ DEBUG [d0081224] 	remote: Compressing objects:  53% (101/190)[K
+ DEBUG [d0081224] 	remote: Compressing objects:  54% (103/190)[K
+ DEBUG [d0081224] 	remote: Compressing objects:  55% (105/190)[K
+ DEBUG [d0081224] 	remote: Compressing objects:  56% (107/190)[K
+ DEBUG [d0081224] 	remote: Compressing objects:  57% (109/190)[K
+ DEBUG [d0081224] 	remote: Compressing objects:  58% (111/190)[K
+ DEBUG [d0081224] 	remote: Compressing objects:  59% (113/190)[K
+ DEBUG [d0081224] 	remote: Compressing objects:  60% (114/190)[K
+ DEBUG [d0081224] 	remote: Compressing objects:  61% (116/190)[K
+ DEBUG [d0081224] 	remote: Compressing objects:  62% (118/190)[K
+ DEBUG [d0081224] 	remote: Compressing objects:  63% (120/190)[K
+ DEBUG [d0081224] 	remote: Compressing objects:  64% (122/190)[K
+ DEBUG [d0081224] 	remote: Compressing objects:  65% (124/190)[K
+ DEBUG [d0081224] 	remote: Compressing objects:  66% (126/190)[K
+ DEBUG [d0081224] 	remote: Compressing objects:  67% (128/190)[K
+ DEBUG [d0081224] 	remote: Compressing objects:  68% (130/190)[K
+ DEBUG [d0081224] 	remote: Compressing objects:  69% (132/190)[K
+ DEBUG [d0081224] 	remote: Compressing objects:  70% (133/190)[K
+ DEBUG [d0081224] 	remote: Compressing objects:  71% (135/190)[K
+ DEBUG [d0081224] 	remote: Compressing objects:  72% (137/190)[K
+ DEBUG [d0081224] 	remote: Compressing objects:  73% (139/190)[K
+ DEBUG [d0081224] 	remote: Compressing objects:  74% (141/190)[K
+ DEBUG [d0081224] 	remote: Compressing objects:  75% (143/190)[K
+ DEBUG [d0081224] 	remote: Compressing objects:  76% (145/190)[K
+ DEBUG [d0081224] 	remote: Compressing objects:  77% (147/190)[K
+ DEBUG [d0081224] 	remote: Compressing objects:  78% (149/190)[K
+ DEBUG [d0081224] 	remote: Compressing objects:  79% (151/190)[K
+ DEBUG [d0081224] 	remote: Compressing objects:  80% (152/190)[K
+ DEBUG [d0081224] 	remote: Compressing objects:  81% (154/190)[K
+ DEBUG [d0081224] 	remote: Compressing objects:  82% (156/190)[K
+ DEBUG [d0081224] 	remote: Compressing objects:  83% (158/190)[K
+ DEBUG [d0081224] 	remote: Compressing objects:  84% (160/190)[K
+ DEBUG [d0081224] 	remote: Compressing objects:  85% (162/190)[K
+ DEBUG [d0081224] 	remote: Compressing objects:  86% (164/190)[K
+ DEBUG [d0081224] 	remote: Compressing objects:  87% (166/190)[K
+ DEBUG [d0081224] 	remote: Compressing objects:  88% (168/190)[K
+ DEBUG [d0081224] 	remote: Compressing objects:  89% (170/190)[K
+ DEBUG [d0081224] 	remote: Compressing objects:  90% (171/190)[K
+ DEBUG [d0081224] 	remote: Compressing objects:  91% (173/190)[K
+ DEBUG [d0081224] 	remote: Compressing objects:  92% (175/190)[K
+ DEBUG [d0081224] 	remote: Compressing objects:  93% (177/190)[K
+ DEBUG [d0081224] 	remote: Compressing objects:  94% (179/190)[K
+ DEBUG [d0081224] 	remote: Compressing objects:  95% (181/190)[K
+ DEBUG [d0081224] 	remote: Compressing objects:  96% (183/190)[K
+ DEBUG [d0081224] 	remote: Compressing objects:  97% (185/190)[K
+ DEBUG [d0081224] 	remote: Compressing objects:  98% (187/190)[K
+ DEBUG [d0081224] 	remote: Compressing objects:  99% (189/190)[K
+ DEBUG [d0081224] 	remote: Compressing objects: 100% (190/190)[K
+ DEBUG [d0081224] 	remote: Compressing objects: 100% (190/190), done.[K
+ DEBUG [d0081224] 	[K
+ DEBUG [d0081224] 	Receiving objects:   0% (1/243)
+ DEBUG [d0081224] 	[K
+ DEBUG [d0081224] 	Receiving objects:   1% (3/243)
+ DEBUG [d0081224] 	[K
+ DEBUG [d0081224] 	Receiving objects:   2% (5/243)
+ DEBUG [d0081224] 	[K
+ DEBUG [d0081224] 	Receiving objects:   3% (8/243)
+ DEBUG [d0081224] 	[K
+ DEBUG [d0081224] 	Receiving objects:   4% (10/243)
+ DEBUG [d0081224] 	[K
+ DEBUG [d0081224] 	Receiving objects:   5% (13/243)
+ DEBUG [d0081224] 	[K
+ DEBUG [d0081224] 	Receiving objects:   6% (15/243)
+ DEBUG [d0081224] 	[K
+ DEBUG [d0081224] 	Receiving objects:   7% (18/243)
+ DEBUG [d0081224] 	[K
+ DEBUG [d0081224] 	Receiving objects:   8% (20/243)
+ DEBUG [d0081224] 	[K
+ DEBUG [d0081224] 	Receiving objects:   9% (22/243)
+ DEBUG [d0081224] 	[K
+ DEBUG [d0081224] 	Receiving objects:  10% (25/243)
+ DEBUG [d0081224] 	[K
+ DEBUG [d0081224] 	Receiving objects:  11% (27/243)
+ DEBUG [d0081224] 	[K
+ DEBUG [d0081224] 	Receiving objects:  12% (30/243)
+ DEBUG [d0081224] 	[K
+ DEBUG [d0081224] 	Receiving objects:  13% (32/243)
+ DEBUG [d0081224] 	[K
+ DEBUG [d0081224] 	Receiving objects:  14% (35/243)
+ DEBUG [d0081224] 	[K
+ DEBUG [d0081224] 	Receiving objects:  15% (37/243)
+ DEBUG [d0081224] 	[K
+ DEBUG [d0081224] 	Receiving objects:  16% (39/243)
+ DEBUG [d0081224] 	[K
+ DEBUG [d0081224] 	Receiving objects:  17% (42/243)
+ DEBUG [d0081224] 	[K
+ DEBUG [d0081224] 	Receiving objects:  18% (44/243)
+ DEBUG [d0081224] 	[K
+ DEBUG [d0081224] 	Receiving objects:  19% (47/243)
+ DEBUG [d0081224] 	[K
+ DEBUG [d0081224] 	Receiving objects:  20% (49/243)
+ DEBUG [d0081224] 	[K
+ DEBUG [d0081224] 	Receiving objects:  21% (52/243)[KReceiving objects:  22% (54/243)[KReceiving objects:  23% (56/243)[KReceiving objects:  24% (59/243)[KReceiving objects:  25% (61/243)[KReceiving objects:  26% (64/243)[KReceiving objects:  27% (66/243)[KReceiving objects:  28% (69/243)[KReceiving objects:  29% (71/243)[KReceiving objects:  30% (73/243)[KReceiving objects:  31% (76/243)[KReceiving objects:  32% (78/243)[KReceiving objects:  33% (81/243)[KReceiving objects:  34% (83/243)[KReceiving objects:  35% (86/243)[KReceiving objects:  36% (88/243)[KReceiving objects:  37% (90/243)[KReceiving objects:  38% (93/243)[KReceiving objects:  39% (95/243)[KReceiving objects:  40% (98/243)[KReceiving objects:  41% (100/243)[KReceiving objects:  42% (103/243)[KReceiving objects:  43% (105/243)[KReceiving objects:  44% (107/243)[KReceiving objects:  45% (110/243)[KReceiving objects:  46% (112/243)[KReceiving objects:  47% (115/243)[KReceiving objects:  48% (117/243)[KReceiving objects:  49% (120/243)[KReceiving objects:  50% (122/243)[KReceiving objects:  51% (124/243)[KReceiving objects:  52% (127/243)[KReceiving objects:  53% (129/243)[KReceiving objects:  54% (132/243)[KReceiving objects:  55% (134/243)[KReceiving objects:  56% (137/243)[KReceiving objects:  57% (139/243)[KReceiving objects:  58% (141/243)[KReceiving objects:  59% (144/243)[KReceiving objects:  60% (146/243)[KReceiving objects:  61% (149/243)[KReceiving objects:  62% (151/243)[KReceiving objects:  63% (154/243)[KReceiving objects:  64% (156/243)[KReceiving objects:  65% (158/243)[KReceiving objects:  66% (161/243)[KReceiving objects:  67% (163/243)[KReceiving objects:  68% (166/243)[KReceiving objects:  69% (168/243)[KReceiving objects:  70% (171/243)[KReceiving objects:  71% (173/243)[KReceiving objects:  72% (175/243)[KReceiving objects:  73% (178/243)[KReceiving objects:  74% (180/243)[KReceiving objects:  75% (183/243)[KReceiving objects:  76% (185/243)[KReceiving objects:  77% (188/243)[KReceiving objects:  78% (190/243)[KReceiving objects:  79% (192/243)
+ DEBUG [d0081224] 	[K
+ DEBUG [d0081224] 	Receiving objects:  80% (195/243)
+ DEBUG [d0081224] 	[K
+ DEBUG [d0081224] 	Receiving objects:  81% (197/243)
+ DEBUG [d0081224] 	[K
+ DEBUG [d0081224] 	Receiving objects:  82% (200/243)
+ DEBUG [d0081224] 	remote: Total 243 (delta 27), reused 243 (delta 27), pack-reused 0[K
+ DEBUG [d0081224] 	[K
+ DEBUG [d0081224] 	Receiving objects:  83% (202/243)
+ DEBUG [d0081224] 	[K
+ DEBUG [d0081224] 	Receiving objects:  84% (205/243)
+ DEBUG [d0081224] 	[K
+ DEBUG [d0081224] 	Receiving objects:  85% (207/243)
+ DEBUG [d0081224] 	[K
+ DEBUG [d0081224] 	Receiving objects:  86% (209/243)
+ DEBUG [d0081224] 	[K
+ DEBUG [d0081224] 	Receiving objects:  87% (212/243)
+ DEBUG [d0081224] 	[K
+ DEBUG [d0081224] 	Receiving objects:  88% (214/243)
+ DEBUG [d0081224] 	[K
+ DEBUG [d0081224] 	Receiving objects:  89% (217/243)
+ DEBUG [d0081224] 	[K
+ DEBUG [d0081224] 	Receiving objects:  90% (219/243)
+ DEBUG [d0081224] 	[K
+ DEBUG [d0081224] 	Receiving objects:  91% (222/243)
+ DEBUG [d0081224] 	[K
+ DEBUG [d0081224] 	Receiving objects:  92% (224/243)
+ DEBUG [d0081224] 	[K
+ DEBUG [d0081224] 	Receiving objects:  93% (226/243)
+ DEBUG [d0081224] 	[K
+ DEBUG [d0081224] 	Receiving objects:  94% (229/243)
+ DEBUG [d0081224] 	[K
+ DEBUG [d0081224] 	Receiving objects:  95% (231/243)
+ DEBUG [d0081224] 	[K
+ DEBUG [d0081224] 	Receiving objects:  96% (234/243)
+ DEBUG [d0081224] 	[K
+ DEBUG [d0081224] 	Receiving objects:  97% (236/243)
+ DEBUG [d0081224] 	[K
+ DEBUG [d0081224] 	Receiving objects:  98% (239/243)
+ DEBUG [d0081224] 	[K
+ DEBUG [d0081224] 	Receiving objects:  99% (241/243)
+ DEBUG [d0081224] 	[K
+ DEBUG [d0081224] 	Receiving objects: 100% (243/243)
+ DEBUG [d0081224] 	[K
+ DEBUG [d0081224] 	Receiving objects: 100% (243/243), 887.16 KiB | 13.65 MiB/s, done.
+ DEBUG [d0081224] 	[K
+ DEBUG [d0081224] 	Resolving deltas:   0% (0/27)
+ DEBUG [d0081224] 	[K
+ DEBUG [d0081224] 	Resolving deltas:  14% (4/27)
+ DEBUG [d0081224] 	[K
+ DEBUG [d0081224] 	Resolving deltas:  18% (5/27)
+ DEBUG [d0081224] 	[K
+ DEBUG [d0081224] 	Resolving deltas:  22% (6/27)
+ DEBUG [d0081224] 	[K
+ DEBUG [d0081224] 	Resolving deltas:  33% (9/27)
+ DEBUG [d0081224] 	[K
+ DEBUG [d0081224] 	Resolving deltas:  37% (10/27)
+ DEBUG [d0081224] 	[K
+ DEBUG [d0081224] 	Resolving deltas:  40% (11/27)
+ DEBUG [d0081224] 	[K
+ DEBUG [d0081224] 	Resolving deltas:  44% (12/27)
+ DEBUG [d0081224] 	[K
+ DEBUG [d0081224] 	Resolving deltas:  48% (13/27)
+ DEBUG [d0081224] 	[K
+ DEBUG [d0081224] 	Resolving deltas:  55% (15/27)
+ DEBUG [d0081224] 	[K
+ DEBUG [d0081224] 	Resolving deltas:  59% (16/27)
+ DEBUG [d0081224] 	[K
+ DEBUG [d0081224] 	Resolving deltas:  62% (17/27)
+ DEBUG [d0081224] 	[K
+ DEBUG [d0081224] 	Resolving deltas:  66% (18/27)
+ DEBUG [d0081224] 	[K
+ DEBUG [d0081224] 	Resolving deltas:  70% (19/27)
+ DEBUG [d0081224] 	[K
+ DEBUG [d0081224] 	Resolving deltas:  74% (20/27)
+ DEBUG [d0081224] 	[K
+ DEBUG [d0081224] 	Resolving deltas:  77% (21/27)
+ DEBUG [d0081224] 	[K
+ DEBUG [d0081224] 	Resolving deltas:  81% (22/27)
+ DEBUG [d0081224] 	[K
+ DEBUG [d0081224] 	Resolving deltas:  85% (23/27)
+ DEBUG [d0081224] 	[K
+ DEBUG [d0081224] 	Resolving deltas:  88% (24/27)
+ DEBUG [d0081224] 	[K
+ DEBUG [d0081224] 	Resolving deltas:  92% (25/27)
+ DEBUG [d0081224] 	[K
+ DEBUG [d0081224] 	Resolving deltas:  96% (26/27)
+ DEBUG [d0081224] 	[K
+ DEBUG [d0081224] 	Resolving deltas: 100% (27/27)
+ DEBUG [d0081224] 	[K
+ DEBUG [d0081224] 	Resolving deltas: 100% (27/27), completed with 11 local objects.
+ DEBUG [d0081224] 	From https://github.com/vaidehiramadugu/rails_deploy-project
+   9c69736..f6dd3ac  master     -> master
+  INFO [d0081224] Finished in 1.910 seconds with exit status 0 (successful).
+ DEBUG [f20b0b3e] Running if test ! -d /u01/apps/qwinix/rails_deploy/repo; then echo "Directory does not exist '/u01/apps/qwinix/rails_deploy/repo'" 1>&2; false; fi as deploy@52.14.81.37
+ DEBUG [f20b0b3e] Command: if test ! -d /u01/apps/qwinix/rails_deploy/repo; then echo "Directory does not exist '/u01/apps/qwinix/rails_deploy/repo'" 1>&2; false; fi
+ DEBUG [f20b0b3e] 	/etc/profile.d/lang.sh: line 19: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory
+ DEBUG [f20b0b3e] Finished in 0.897 seconds with exit status 0 (successful).
+  INFO [33d16d8e] Running /usr/bin/env mkdir -p /u01/apps/qwinix/rails_deploy/releases/20200205061046 as deploy@52.14.81.37
+ DEBUG [33d16d8e] Command: cd /u01/apps/qwinix/rails_deploy/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-rails_deploy-production-admin.sh" ; /usr/bin/env mkdir -p /u01/apps/qwinix/rails_deploy/releases/20200205061046 )
+ DEBUG [33d16d8e] 	/etc/profile.d/lang.sh: line 19: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory
+  INFO [33d16d8e] Finished in 0.950 seconds with exit status 0 (successful).
+  INFO [248d7411] Running /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /u01/apps/qwinix/rails_deploy/releases/20200205061046 as deploy@52.14.81.37
+ DEBUG [248d7411] Command: cd /u01/apps/qwinix/rails_deploy/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-rails_deploy-production-admin.sh" ; /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /u01/apps/qwinix/rails_deploy/releases/20200205061046 )
+ DEBUG [248d7411] 	/etc/profile.d/lang.sh: line 19: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory
+  INFO [248d7411] Finished in 5.369 seconds with exit status 0 (successful).
+ DEBUG [61ae792c] Running if test ! -d /u01/apps/qwinix/rails_deploy/repo; then echo "Directory does not exist '/u01/apps/qwinix/rails_deploy/repo'" 1>&2; false; fi as deploy@52.14.81.37
+ DEBUG [61ae792c] Command: if test ! -d /u01/apps/qwinix/rails_deploy/repo; then echo "Directory does not exist '/u01/apps/qwinix/rails_deploy/repo'" 1>&2; false; fi
+ DEBUG [61ae792c] 	/etc/profile.d/lang.sh: line 19: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory
+ DEBUG [61ae792c] Finished in 0.854 seconds with exit status 0 (successful).
+ DEBUG [07ccd946] Running /usr/bin/env git rev-list --max-count=1 master as deploy@52.14.81.37
+ DEBUG [07ccd946] Command: cd /u01/apps/qwinix/rails_deploy/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-rails_deploy-production-admin.sh" ; /usr/bin/env git rev-list --max-count=1 master )
+ DEBUG [07ccd946] 	/etc/profile.d/lang.sh: line 19: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory
+ DEBUG [07ccd946] 	f6dd3aca6ed2bd4110fa18e6b2412a1b9164494a
+ DEBUG [07ccd946] Finished in 0.982 seconds with exit status 0 (successful).
+ DEBUG [2d511ffc] Running if test ! -d /u01/apps/qwinix/rails_deploy/releases/20200205061046; then echo "Directory does not exist '/u01/apps/qwinix/rails_deploy/releases/20200205061046'" 1>&2; false; fi as deploy@52.14.81.37
+ DEBUG [2d511ffc] Command: if test ! -d /u01/apps/qwinix/rails_deploy/releases/20200205061046; then echo "Directory does not exist '/u01/apps/qwinix/rails_deploy/releases/20200205061046'" 1>&2; false; fi
+ DEBUG [2d511ffc] 	/etc/profile.d/lang.sh: line 19: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory
+ DEBUG [2d511ffc] Finished in 0.834 seconds with exit status 0 (successful).
+  INFO [6e350786] Running /usr/bin/env echo "/etc/profile.d/lang.sh: line 19: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory
+f6dd3aca6ed2bd4110fa18e6b2412a1b9164494a" > REVISION as deploy@52.14.81.37
+ DEBUG [6e350786] Command: cd /u01/apps/qwinix/rails_deploy/releases/20200205061046 && /usr/bin/env echo "/etc/profile.d/lang.sh: line 19: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory
+f6dd3aca6ed2bd4110fa18e6b2412a1b9164494a" > REVISION
+ DEBUG [6e350786] 	/etc/profile.d/lang.sh: line 19: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory
+  INFO [6e350786] Finished in 1.462 seconds with exit status 0 (successful).
+  INFO [f7981abe] Running /usr/bin/env mkdir -p /u01/apps/qwinix/rails_deploy/releases/20200205061046/config as deploy@52.14.81.37
+ DEBUG [f7981abe] Command: /usr/bin/env mkdir -p /u01/apps/qwinix/rails_deploy/releases/20200205061046/config
+ DEBUG [f7981abe] 	/etc/profile.d/lang.sh: line 19: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory
+  INFO [f7981abe] Finished in 0.824 seconds with exit status 0 (successful).
+ DEBUG [74e60ba3] Running [ -L /u01/apps/qwinix/rails_deploy/releases/20200205061046/config/database.yml ] as deploy@52.14.81.37
+ DEBUG [74e60ba3] Command: [ -L /u01/apps/qwinix/rails_deploy/releases/20200205061046/config/database.yml ]
+ DEBUG [74e60ba3] 	/etc/profile.d/lang.sh: line 19: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory
+ DEBUG [74e60ba3] Finished in 0.804 seconds with exit status 1 (failed).
+ DEBUG [090120ba] Running [ -f /u01/apps/qwinix/rails_deploy/releases/20200205061046/config/database.yml ] as deploy@52.14.81.37
+ DEBUG [090120ba] Command: [ -f /u01/apps/qwinix/rails_deploy/releases/20200205061046/config/database.yml ]
+ DEBUG [090120ba] 	/etc/profile.d/lang.sh: line 19: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory
+ DEBUG [090120ba] Finished in 0.980 seconds with exit status 0 (successful).
+  INFO [43995990] Running /usr/bin/env rm /u01/apps/qwinix/rails_deploy/releases/20200205061046/config/database.yml as deploy@52.14.81.37
+ DEBUG [43995990] Command: /usr/bin/env rm /u01/apps/qwinix/rails_deploy/releases/20200205061046/config/database.yml
+ DEBUG [43995990] 	/etc/profile.d/lang.sh: line 19: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory
+  INFO [43995990] Finished in 0.895 seconds with exit status 0 (successful).
+  INFO [f65d1b4a] Running /usr/bin/env ln -s /u01/apps/qwinix/rails_deploy/shared/config/database.yml /u01/apps/qwinix/rails_deploy/releases/20200205061046/config/database.yml as deploy@52.14.81.37
+ DEBUG [f65d1b4a] Command: /usr/bin/env ln -s /u01/apps/qwinix/rails_deploy/shared/config/database.yml /u01/apps/qwinix/rails_deploy/releases/20200205061046/config/database.yml
+ DEBUG [f65d1b4a] 	/etc/profile.d/lang.sh: line 19: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory
+  INFO [f65d1b4a] Finished in 0.985 seconds with exit status 0 (successful).
+ DEBUG [114beaf4] Running [ -L /u01/apps/qwinix/rails_deploy/releases/20200205061046/config/application.yml ] as deploy@52.14.81.37
+ DEBUG [114beaf4] Command: [ -L /u01/apps/qwinix/rails_deploy/releases/20200205061046/config/application.yml ]
+ DEBUG [114beaf4] 	/etc/profile.d/lang.sh: line 19: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory
+ DEBUG [114beaf4] Finished in 0.843 seconds with exit status 1 (failed).
+ DEBUG [050227c7] Running [ -f /u01/apps/qwinix/rails_deploy/releases/20200205061046/config/application.yml ] as deploy@52.14.81.37
+ DEBUG [050227c7] Command: [ -f /u01/apps/qwinix/rails_deploy/releases/20200205061046/config/application.yml ]
+ DEBUG [050227c7] 	/etc/profile.d/lang.sh: line 19: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory
+ DEBUG [050227c7] Finished in 0.826 seconds with exit status 1 (failed).
+  INFO [9ea0b290] Running /usr/bin/env ln -s /u01/apps/qwinix/rails_deploy/shared/config/application.yml /u01/apps/qwinix/rails_deploy/releases/20200205061046/config/application.yml as deploy@52.14.81.37
+ DEBUG [9ea0b290] Command: /usr/bin/env ln -s /u01/apps/qwinix/rails_deploy/shared/config/application.yml /u01/apps/qwinix/rails_deploy/releases/20200205061046/config/application.yml
+ DEBUG [9ea0b290] 	/etc/profile.d/lang.sh: line 19: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory
+  INFO [9ea0b290] Finished in 3.073 seconds with exit status 0 (successful).
+  INFO [73e6398e] Running /usr/bin/env mkdir -p /u01/apps/qwinix/rails_deploy/releases/20200205061046 /u01/apps/qwinix/rails_deploy/releases/20200205061046/tmp /u01/apps/qwinix/rails_deploy/releases/20200205061046/vendor /u01/apps/qwinix/rails_deploy/releases/20200205061046/public as deploy@52.14.81.37
+ DEBUG [73e6398e] Command: /usr/bin/env mkdir -p /u01/apps/qwinix/rails_deploy/releases/20200205061046 /u01/apps/qwinix/rails_deploy/releases/20200205061046/tmp /u01/apps/qwinix/rails_deploy/releases/20200205061046/vendor /u01/apps/qwinix/rails_deploy/releases/20200205061046/public
+ DEBUG [73e6398e] 	/etc/profile.d/lang.sh: line 19: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory
+  INFO [73e6398e] Finished in 0.704 seconds with exit status 0 (successful).
+ DEBUG [8330a331] Running [ -L /u01/apps/qwinix/rails_deploy/releases/20200205061046/bin ] as deploy@52.14.81.37
+ DEBUG [8330a331] Command: [ -L /u01/apps/qwinix/rails_deploy/releases/20200205061046/bin ]
+ DEBUG [8330a331] 	/etc/profile.d/lang.sh: line 19: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory
+ DEBUG [8330a331] Finished in 0.911 seconds with exit status 1 (failed).
+ DEBUG [8c8c2719] Running [ -d /u01/apps/qwinix/rails_deploy/releases/20200205061046/bin ] as deploy@52.14.81.37
+ DEBUG [8c8c2719] Command: [ -d /u01/apps/qwinix/rails_deploy/releases/20200205061046/bin ]
+ DEBUG [8c8c2719] 	/etc/profile.d/lang.sh: line 19: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory
+ DEBUG [8c8c2719] Finished in 0.833 seconds with exit status 0 (successful).
+  INFO [8f44eb73] Running /usr/bin/env rm -rf /u01/apps/qwinix/rails_deploy/releases/20200205061046/bin as deploy@52.14.81.37
+ DEBUG [8f44eb73] Command: /usr/bin/env rm -rf /u01/apps/qwinix/rails_deploy/releases/20200205061046/bin
+ DEBUG [8f44eb73] 	/etc/profile.d/lang.sh: line 19: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory
+  INFO [8f44eb73] Finished in 0.847 seconds with exit status 0 (successful).
+  INFO [e6d4096e] Running /usr/bin/env ln -s /u01/apps/qwinix/rails_deploy/shared/bin /u01/apps/qwinix/rails_deploy/releases/20200205061046/bin as deploy@52.14.81.37
+ DEBUG [e6d4096e] Command: /usr/bin/env ln -s /u01/apps/qwinix/rails_deploy/shared/bin /u01/apps/qwinix/rails_deploy/releases/20200205061046/bin
+ DEBUG [e6d4096e] 	/etc/profile.d/lang.sh: line 19: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory
+  INFO [e6d4096e] Finished in 0.835 seconds with exit status 0 (successful).
+ DEBUG [801939af] Running [ -L /u01/apps/qwinix/rails_deploy/releases/20200205061046/log ] as deploy@52.14.81.37
+ DEBUG [801939af] Command: [ -L /u01/apps/qwinix/rails_deploy/releases/20200205061046/log ]
+ DEBUG [801939af] 	/etc/profile.d/lang.sh: line 19: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory
+ DEBUG [801939af] Finished in 0.939 seconds with exit status 1 (failed).
+ DEBUG [e05e1352] Running [ -d /u01/apps/qwinix/rails_deploy/releases/20200205061046/log ] as deploy@52.14.81.37
+ DEBUG [e05e1352] Command: [ -d /u01/apps/qwinix/rails_deploy/releases/20200205061046/log ]
+ DEBUG [e05e1352] 	/etc/profile.d/lang.sh: line 19: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory
+ DEBUG [e05e1352] Finished in 0.835 seconds with exit status 0 (successful).
+  INFO [721fe3a1] Running /usr/bin/env rm -rf /u01/apps/qwinix/rails_deploy/releases/20200205061046/log as deploy@52.14.81.37
+ DEBUG [721fe3a1] Command: /usr/bin/env rm -rf /u01/apps/qwinix/rails_deploy/releases/20200205061046/log
+ DEBUG [721fe3a1] 	/etc/profile.d/lang.sh: line 19: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory
+  INFO [721fe3a1] Finished in 0.940 seconds with exit status 0 (successful).
+  INFO [42990683] Running /usr/bin/env ln -s /u01/apps/qwinix/rails_deploy/shared/log /u01/apps/qwinix/rails_deploy/releases/20200205061046/log as deploy@52.14.81.37
+ DEBUG [42990683] Command: /usr/bin/env ln -s /u01/apps/qwinix/rails_deploy/shared/log /u01/apps/qwinix/rails_deploy/releases/20200205061046/log
+ DEBUG [42990683] 	/etc/profile.d/lang.sh: line 19: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory
+  INFO [42990683] Finished in 1.153 seconds with exit status 0 (successful).
+ DEBUG [c97997f2] Running [ -L /u01/apps/qwinix/rails_deploy/releases/20200205061046/tmp/pids ] as deploy@52.14.81.37
+ DEBUG [c97997f2] Command: [ -L /u01/apps/qwinix/rails_deploy/releases/20200205061046/tmp/pids ]
+ DEBUG [c97997f2] 	/etc/profile.d/lang.sh: line 19: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory
+ DEBUG [c97997f2] Finished in 0.935 seconds with exit status 1 (failed).
+ DEBUG [650bb798] Running [ -d /u01/apps/qwinix/rails_deploy/releases/20200205061046/tmp/pids ] as deploy@52.14.81.37
+ DEBUG [650bb798] Command: [ -d /u01/apps/qwinix/rails_deploy/releases/20200205061046/tmp/pids ]
+ DEBUG [650bb798] 	/etc/profile.d/lang.sh: line 19: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory
+ DEBUG [650bb798] Finished in 1.185 seconds with exit status 0 (successful).
+  INFO [134234b6] Running /usr/bin/env rm -rf /u01/apps/qwinix/rails_deploy/releases/20200205061046/tmp/pids as deploy@52.14.81.37
+ DEBUG [134234b6] Command: /usr/bin/env rm -rf /u01/apps/qwinix/rails_deploy/releases/20200205061046/tmp/pids
+ DEBUG [134234b6] 	/etc/profile.d/lang.sh: line 19: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory
+  INFO [134234b6] Finished in 0.959 seconds with exit status 0 (successful).
+  INFO [424499e5] Running /usr/bin/env ln -s /u01/apps/qwinix/rails_deploy/shared/tmp/pids /u01/apps/qwinix/rails_deploy/releases/20200205061046/tmp/pids as deploy@52.14.81.37
+ DEBUG [424499e5] Command: /usr/bin/env ln -s /u01/apps/qwinix/rails_deploy/shared/tmp/pids /u01/apps/qwinix/rails_deploy/releases/20200205061046/tmp/pids
+ DEBUG [424499e5] 	/etc/profile.d/lang.sh: line 19: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory
+  INFO [424499e5] Finished in 0.887 seconds with exit status 0 (successful).
+ DEBUG [910d26d3] Running [ -L /u01/apps/qwinix/rails_deploy/releases/20200205061046/tmp/cache ] as deploy@52.14.81.37
+ DEBUG [910d26d3] Command: [ -L /u01/apps/qwinix/rails_deploy/releases/20200205061046/tmp/cache ]
+ DEBUG [910d26d3] 	/etc/profile.d/lang.sh: line 19: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory
+ DEBUG [910d26d3] Finished in 0.815 seconds with exit status 1 (failed).
+ DEBUG [59187286] Running [ -d /u01/apps/qwinix/rails_deploy/releases/20200205061046/tmp/cache ] as deploy@52.14.81.37
+ DEBUG [59187286] Command: [ -d /u01/apps/qwinix/rails_deploy/releases/20200205061046/tmp/cache ]
+ DEBUG [59187286] 	/etc/profile.d/lang.sh: line 19: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory
+ DEBUG [59187286] Finished in 0.805 seconds with exit status 0 (successful).
+  INFO [bd45cf57] Running /usr/bin/env rm -rf /u01/apps/qwinix/rails_deploy/releases/20200205061046/tmp/cache as deploy@52.14.81.37
+ DEBUG [bd45cf57] Command: /usr/bin/env rm -rf /u01/apps/qwinix/rails_deploy/releases/20200205061046/tmp/cache
+ DEBUG [bd45cf57] 	/etc/profile.d/lang.sh: line 19: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory
+  INFO [bd45cf57] Finished in 0.884 seconds with exit status 0 (successful).
+  INFO [ce8311e4] Running /usr/bin/env ln -s /u01/apps/qwinix/rails_deploy/shared/tmp/cache /u01/apps/qwinix/rails_deploy/releases/20200205061046/tmp/cache as deploy@52.14.81.37
+ DEBUG [ce8311e4] Command: /usr/bin/env ln -s /u01/apps/qwinix/rails_deploy/shared/tmp/cache /u01/apps/qwinix/rails_deploy/releases/20200205061046/tmp/cache
+ DEBUG [ce8311e4] 	/etc/profile.d/lang.sh: line 19: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory
+  INFO [ce8311e4] Finished in 0.889 seconds with exit status 0 (successful).
+ DEBUG [c787714a] Running [ -L /u01/apps/qwinix/rails_deploy/releases/20200205061046/tmp/sockets ] as deploy@52.14.81.37
+ DEBUG [c787714a] Command: [ -L /u01/apps/qwinix/rails_deploy/releases/20200205061046/tmp/sockets ]
+ DEBUG [c787714a] 	/etc/profile.d/lang.sh: line 19: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory
+ DEBUG [c787714a] Finished in 0.885 seconds with exit status 1 (failed).
+ DEBUG [0209a386] Running [ -d /u01/apps/qwinix/rails_deploy/releases/20200205061046/tmp/sockets ] as deploy@52.14.81.37
+ DEBUG [0209a386] Command: [ -d /u01/apps/qwinix/rails_deploy/releases/20200205061046/tmp/sockets ]
+ DEBUG [0209a386] 	/etc/profile.d/lang.sh: line 19: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory
+ DEBUG [0209a386] Finished in 0.937 seconds with exit status 1 (failed).
+  INFO [d5a17038] Running /usr/bin/env ln -s /u01/apps/qwinix/rails_deploy/shared/tmp/sockets /u01/apps/qwinix/rails_deploy/releases/20200205061046/tmp/sockets as deploy@52.14.81.37
+ DEBUG [d5a17038] Command: /usr/bin/env ln -s /u01/apps/qwinix/rails_deploy/shared/tmp/sockets /u01/apps/qwinix/rails_deploy/releases/20200205061046/tmp/sockets
+ DEBUG [d5a17038] 	/etc/profile.d/lang.sh: line 19: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory
+  INFO [d5a17038] Finished in 0.897 seconds with exit status 0 (successful).
+ DEBUG [e1f73ab2] Running [ -L /u01/apps/qwinix/rails_deploy/releases/20200205061046/vendor/bundle ] as deploy@52.14.81.37
+ DEBUG [e1f73ab2] Command: [ -L /u01/apps/qwinix/rails_deploy/releases/20200205061046/vendor/bundle ]
+ DEBUG [e1f73ab2] 	/etc/profile.d/lang.sh: line 19: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory
+ DEBUG [e1f73ab2] Finished in 0.871 seconds with exit status 1 (failed).
+ DEBUG [0c44bdf3] Running [ -d /u01/apps/qwinix/rails_deploy/releases/20200205061046/vendor/bundle ] as deploy@52.14.81.37
+ DEBUG [0c44bdf3] Command: [ -d /u01/apps/qwinix/rails_deploy/releases/20200205061046/vendor/bundle ]
+ DEBUG [0c44bdf3] 	/etc/profile.d/lang.sh: line 19: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory
+ DEBUG [0c44bdf3] Finished in 0.929 seconds with exit status 1 (failed).
+  INFO [bf538fc0] Running /usr/bin/env ln -s /u01/apps/qwinix/rails_deploy/shared/vendor/bundle /u01/apps/qwinix/rails_deploy/releases/20200205061046/vendor/bundle as deploy@52.14.81.37
+ DEBUG [bf538fc0] Command: /usr/bin/env ln -s /u01/apps/qwinix/rails_deploy/shared/vendor/bundle /u01/apps/qwinix/rails_deploy/releases/20200205061046/vendor/bundle
+ DEBUG [bf538fc0] 	/etc/profile.d/lang.sh: line 19: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory
+  INFO [bf538fc0] Finished in 0.970 seconds with exit status 0 (successful).
+ DEBUG [958effab] Running [ -L /u01/apps/qwinix/rails_deploy/releases/20200205061046/public/system ] as deploy@52.14.81.37
+ DEBUG [958effab] Command: [ -L /u01/apps/qwinix/rails_deploy/releases/20200205061046/public/system ]
+ DEBUG [958effab] 	/etc/profile.d/lang.sh: line 19: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory
+ DEBUG [958effab] Finished in 2.078 seconds with exit status 1 (failed).
+ DEBUG [ed3c1573] Running [ -d /u01/apps/qwinix/rails_deploy/releases/20200205061046/public/system ] as deploy@52.14.81.37
+ DEBUG [ed3c1573] Command: [ -d /u01/apps/qwinix/rails_deploy/releases/20200205061046/public/system ]
+ DEBUG [ed3c1573] 	/etc/profile.d/lang.sh: line 19: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory
+ DEBUG [ed3c1573] Finished in 2.190 seconds with exit status 1 (failed).
+  INFO [dd8e91c3] Running /usr/bin/env ln -s /u01/apps/qwinix/rails_deploy/shared/public/system /u01/apps/qwinix/rails_deploy/releases/20200205061046/public/system as deploy@52.14.81.37
+ DEBUG [dd8e91c3] Command: /usr/bin/env ln -s /u01/apps/qwinix/rails_deploy/shared/public/system /u01/apps/qwinix/rails_deploy/releases/20200205061046/public/system
+ DEBUG [dd8e91c3] 	/etc/profile.d/lang.sh: line 19: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory
+  INFO [dd8e91c3] Finished in 1.148 seconds with exit status 0 (successful).
+ DEBUG [da103eb6] Running [ -L /u01/apps/qwinix/rails_deploy/releases/20200205061046/public/uploads ] as deploy@52.14.81.37
+ DEBUG [da103eb6] Command: [ -L /u01/apps/qwinix/rails_deploy/releases/20200205061046/public/uploads ]
+ DEBUG [da103eb6] 	/etc/profile.d/lang.sh: line 19: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory
+ DEBUG [da103eb6] Finished in 1.049 seconds with exit status 1 (failed).
+ DEBUG [773de731] Running [ -d /u01/apps/qwinix/rails_deploy/releases/20200205061046/public/uploads ] as deploy@52.14.81.37
+ DEBUG [773de731] Command: [ -d /u01/apps/qwinix/rails_deploy/releases/20200205061046/public/uploads ]
+ DEBUG [773de731] 	/etc/profile.d/lang.sh: line 19: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory
+ DEBUG [773de731] Finished in 0.864 seconds with exit status 1 (failed).
+  INFO [53d9be74] Running /usr/bin/env ln -s /u01/apps/qwinix/rails_deploy/shared/public/uploads /u01/apps/qwinix/rails_deploy/releases/20200205061046/public/uploads as deploy@52.14.81.37
+ DEBUG [53d9be74] Command: /usr/bin/env ln -s /u01/apps/qwinix/rails_deploy/shared/public/uploads /u01/apps/qwinix/rails_deploy/releases/20200205061046/public/uploads
+ DEBUG [53d9be74] 	/etc/profile.d/lang.sh: line 19: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory
+  INFO [53d9be74] Finished in 0.858 seconds with exit status 0 (successful).
+  INFO [d73e54ac] Running /usr/bin/env ln -s /u01/apps/qwinix/rails_deploy/releases/20200205061046 /u01/apps/qwinix/rails_deploy/releases/current as deploy@52.14.81.37
+ DEBUG [d73e54ac] Command: /usr/bin/env ln -s /u01/apps/qwinix/rails_deploy/releases/20200205061046 /u01/apps/qwinix/rails_deploy/releases/current
+ DEBUG [d73e54ac] 	/etc/profile.d/lang.sh: line 19: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory
+  INFO [d73e54ac] Finished in 0.883 seconds with exit status 0 (successful).
+  INFO [42b3d4fb] Running /usr/bin/env mv /u01/apps/qwinix/rails_deploy/releases/current /u01/apps/qwinix/rails_deploy as deploy@52.14.81.37
+ DEBUG [42b3d4fb] Command: /usr/bin/env mv /u01/apps/qwinix/rails_deploy/releases/current /u01/apps/qwinix/rails_deploy
+ DEBUG [42b3d4fb] 	/etc/profile.d/lang.sh: line 19: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory
+  INFO [42b3d4fb] Finished in 0.940 seconds with exit status 0 (successful).
+ DEBUG [ca66837e] Running /usr/bin/env ls -x /u01/apps/qwinix/rails_deploy/releases as deploy@52.14.81.37
+ DEBUG [ca66837e] Command: /usr/bin/env ls -x /u01/apps/qwinix/rails_deploy/releases
+ DEBUG [ca66837e] 	/etc/profile.d/lang.sh: line 19: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory
+ DEBUG [ca66837e] 	20200205045915	20200205050333	20200205050752	20200205051930	20200205052315
+ DEBUG [ca66837e] 	20200205061046
+ DEBUG [ca66837e] Finished in 1.117 seconds with exit status 0 (successful).
+  WARN Skipping cleanup of invalid releases on 52.14.81.37; unexpected foldername found (should be timestamp)
+  INFO Keeping 5 of 6 deployed releases on 52.14.81.37
+ DEBUG [39ec8b08] Running [ -d /u01/apps/qwinix/rails_deploy/current ] as deploy@52.14.81.37
+ DEBUG [39ec8b08] Command: [ -d /u01/apps/qwinix/rails_deploy/current ]
+ DEBUG [39ec8b08] 	/etc/profile.d/lang.sh: line 19: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory
+ DEBUG [39ec8b08] Finished in 1.014 seconds with exit status 0 (successful).
+ DEBUG [73bbf9de] Running /usr/bin/env readlink /u01/apps/qwinix/rails_deploy/current as deploy@52.14.81.37
+ DEBUG [73bbf9de] Command: /usr/bin/env readlink /u01/apps/qwinix/rails_deploy/current
+ DEBUG [73bbf9de] 	/etc/profile.d/lang.sh: line 19: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory
+ DEBUG [73bbf9de] 	/u01/apps/qwinix/rails_deploy/releases/20200205061046
+ DEBUG [73bbf9de] Finished in 0.998 seconds with exit status 0 (successful).
+  INFO [b48b4036] Running /usr/bin/env rm -rf /u01/apps/qwinix/rails_deploy/releases/20200205045915 as deploy@52.14.81.37
+ DEBUG [b48b4036] Command: /usr/bin/env rm -rf /u01/apps/qwinix/rails_deploy/releases/20200205045915
+ DEBUG [b48b4036] 	/etc/profile.d/lang.sh: line 19: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory
+  INFO [b48b4036] Finished in 1.671 seconds with exit status 0 (successful).
+ DEBUG [c429338c] Running if test ! -d /u01/apps/qwinix/rails_deploy/releases; then echo "Directory does not exist '/u01/apps/qwinix/rails_deploy/releases'" 1>&2; false; fi as deploy@52.14.81.37
+ DEBUG [c429338c] Command: if test ! -d /u01/apps/qwinix/rails_deploy/releases; then echo "Directory does not exist '/u01/apps/qwinix/rails_deploy/releases'" 1>&2; false; fi
+ DEBUG [c429338c] 	/etc/profile.d/lang.sh: line 19: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory
+ DEBUG [c429338c] Finished in 0.939 seconds with exit status 0 (successful).
+  INFO [f8dfb903] Running /usr/bin/env echo "Branch master (at /etc/profile.d/lang.sh: line 19: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory
+f6dd3aca6ed2bd4110fa18e6b2412a1b9164494a) deployed as release 20200205061046 by admin" >> /u01/apps/qwinix/rails_deploy/revisions.log as deploy@52.14.81.37
+ DEBUG [f8dfb903] Command: cd /u01/apps/qwinix/rails_deploy/releases && /usr/bin/env echo "Branch master (at /etc/profile.d/lang.sh: line 19: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory
+f6dd3aca6ed2bd4110fa18e6b2412a1b9164494a) deployed as release 20200205061046 by admin" >> /u01/apps/qwinix/rails_deploy/revisions.log
+ DEBUG [f8dfb903] 	/etc/profile.d/lang.sh: line 19: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory
+  INFO [f8dfb903] Finished in 1.043 seconds with exit status 0 (successful).
